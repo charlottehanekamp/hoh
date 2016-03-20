@@ -9,8 +9,6 @@ angular.module('hoh', ['ngCookies'])
       .success(function(data, status) {
           if(status == 201){
               console.log(data.access_token);
-              $cookieStore.put('token', data.access_token);
-              // console.log($cookies.get('token'));
               window.location.href = "/pages/after.html";
           }else {
               $scope.messages = 'Oops, we received your request, but there was an error processing it.';

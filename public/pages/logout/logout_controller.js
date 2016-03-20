@@ -6,9 +6,6 @@ angular.module('hoh', ['ngCookies'])
     $http.delete("/v1/auth.json?token=" + $cookieStore.get('key') )
       .success(function(data, status) {
         if(status == 200){
-          // console.log($cookieStore.get('key'));
-          $cookieStore.remove('key');
-          // console.log($cookieStore.get('key'));
           window.location.href = "/pages/login/login.html";
         }else {
           window.location.href = "/pages/after.html";
