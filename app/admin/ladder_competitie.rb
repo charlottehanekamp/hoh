@@ -1,5 +1,5 @@
 ActiveAdmin.register LadderCompetitie do
-  permit_params :one, :two, :three, :four, :five, :user_id, :shot_against_id, :shot_at, :arrows_shot, :arrows_hit, :bonus
+  permit_params :one, :two, :three, :four, :five, :user_id, :shot_against_id, :shot_at, :arrows_hit
 
   index do
     selectable_column
@@ -12,6 +12,7 @@ ActiveAdmin.register LadderCompetitie do
     column :five
     column :arrows_shot
     column :arrows_hit
+    column :total_without_bonus
     column :bonus
     column :total
     column :shot_at
@@ -28,7 +29,6 @@ ActiveAdmin.register LadderCompetitie do
       f.input :four
       f.input :five
       f.input :arrows_shot
-      f.input :arrows_hit
       f.input :shot_at
     end
     f.actions
@@ -46,6 +46,7 @@ ActiveAdmin.register LadderCompetitie do
       row :arrows_shot
       row :arrows_hit
       row :bonus
+      row :total_without_bonus
       row :total
       row :shot_at
     end

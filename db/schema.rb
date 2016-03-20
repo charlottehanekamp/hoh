@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160314143906) do
+ActiveRecord::Schema.define(version: 20160320225246) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -82,19 +82,19 @@ ActiveRecord::Schema.define(version: 20160314143906) do
   create_table "ladder_competities", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "shot_against_id"
-    t.integer  "five",            default: 0
-    t.integer  "four",            default: 0
-    t.integer  "three",           default: 0
-    t.integer  "two",             default: 0
-    t.integer  "one",             default: 0
-    t.integer  "miss",            default: 0
-    t.integer  "total",           default: 0
+    t.integer  "five",                default: 0
+    t.integer  "four",                default: 0
+    t.integer  "three",               default: 0
+    t.integer  "two",                 default: 0
+    t.integer  "one",                 default: 0
+    t.integer  "total_without_bonus", default: 0
+    t.integer  "total",               default: 0
     t.date     "shot_at"
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
-    t.integer  "arrows_shot",     default: 0
-    t.integer  "arrows_hit",      default: 0
-    t.integer  "bonus",           default: 0
+    t.datetime "created_at",                      null: false
+    t.datetime "updated_at",                      null: false
+    t.integer  "arrows_shot",         default: 0
+    t.integer  "arrows_hit",          default: 0
+    t.integer  "bonus",               default: 0
   end
 
   add_index "ladder_competities", ["shot_against_id"], name: "index_ladder_competities_on_shot_against_id", using: :btree

@@ -4,9 +4,9 @@ class LadderCompetitie < ActiveRecord::Base
 
   before_save :calculate_bonus
   before_save :calculate_total_points
+  before_save :calculate_arrows_hit
 
   validate :user_and_shot_at_is_not_the_same
-  validate :arrows_shot_and_score_is_the_same
   validate :arrows_hit_cannot_be_greater_than_arrows_shot
 
   protected
@@ -17,28 +17,30 @@ class LadderCompetitie < ActiveRecord::Base
   end
 
   def calculate_total_points
+    self.total_without_bonus = 0
     self.total = 0
-    self.total += 1 * self.one
-    self.total += 2 * self.two
-    self.total += 3 * self.three
-    self.total += 4 * self.four
-    self.total += 5 * self.five
-    self.total += self.bonus
-    self.total
+
+    self.total_without_bonus += 1 * self.one
+    self.total_without_bonus += 2 * self.two
+    self.total_without_bonus += 3 * self.three
+    self.total_without_bonus += 4 * self.four
+    self.total_without_bonus += 5 * self.five
+    self.total = self.bonus + self.total_without_bonus
+  end
+
+  def calculate_arrows_hit
+    self.arrows_hit = 0
+    self.arrows_hit += self.one
+    self.arrows_hit += self.two
+    self.arrows_hit += self.three
+    self.arrows_hit += self.four
+    self.arrows_hit += self.five
+    self.arrows_hit
   end
 
   def user_and_shot_at_is_not_the_same
     if self.user_id == self.shot_against_id
       errors.add(:user, 'Users can\'t be the same')
-      false
-    end
-  end
-
-  def arrows_shot_and_score_is_the_same
-    total = 0
-    total = self.one + self.two + self.three + self.four + self.five
-    unless total == self.arrows_hit
-      errors.add(:arrows_hit, "Total arrows hit is not the same as filled in arrows (#{total})")
       false
     end
   end

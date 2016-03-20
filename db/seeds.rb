@@ -7,29 +7,29 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-User.create!(email:'charlie.5991@gmail.com', password: 'password', password_confirmation: 'password',
+u1 = User.create!(email:'charlie.5991@gmail.com', password: 'password', password_confirmation: 'password',
     first_name:'Charlotte', last_name:'Hanekamp', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'includes', 'img', '12107712_898803356868321_4916923459866462126_n.jpg'))
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', '12107712_898803356868321_4916923459866462126_n.jpg'))
 )
-User.create!(email:'claire@test.nl', password: 'password', password_confirmation: 'password',
+u2 = User.create!(email:'claire@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Claire', last_name:'Hagen', user_type: 1, functie: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'includes', 'img', '1509822_10203295280207746_396486274_n.jpg')),
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', '1509822_10203295280207746_396486274_n.jpg')),
     content:
       'Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
       Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
       Nothing! Because if I take it to small claims court, it will just drain eight hours out of my life and you probably wont show up and even if I got the judgment youd just stiff me anyway; so what I am going to do is piss and moan like an impotent jerk, and then '
 )
-User.create!(email:'janneke@test.nl', password: 'password', password_confirmation: 'password',
+u3 = User.create!(email:'janneke@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Janneke', last_name:'Rottman', user_type: 1, functie: 2,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'includes', 'img', '1898001_10203086875597761_1013105488_n.jpg')),
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', '1898001_10203086875597761_1013105488_n.jpg')),
     content:
       'Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
       Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
       Nothing! Because if I take it to small claims court, it will just drain eight hours out of my life and you probably wont show up and even if I got the judgment youd just stiff me anyway; so what I am going to do is piss and moan like an impotent jerk, and then '
 )
-User.create!(email:'jose@test.nl', password: 'password', password_confirmation: 'password',
+u4 = User.create!(email:'jose@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Jose', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'includes', 'img', 'Jose.jpg')),
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Jose.jpg')),
     content:
       'Mijn naam is José en ik ben 30 jaar.
       Ik rijd al sinds mijn 9e paard en ben ook gediplomeerd instructrice.
@@ -43,9 +43,9 @@ User.create!(email:'jose@test.nl', password: 'password', password_confirmation: 
       Ook het paard vind het leuk, voor ik de gang in ga wordt hij al ongeduldig en galoppeert snel aan wanneer dit mag.
       Ik hoop dat deze sport nog flink zal groeien in Nederland en ik kan het dan ook iedereen aanbevelen!'
 )
-User.create!(email:'arno@test.nl', password: 'password', password_confirmation: 'password',
+u5 = User.create!(email:'arno@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Arno', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'includes', 'img', 'Arno.jpg')),
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Arno.jpg')),
     content:
       'Ik ben Arno Hendriks, 32 jaar en heb 2 paarden.
       De merrie Vanilla, hartstikke geschikt voor boogschieten te paard, maar helaas met pensioen,
@@ -59,18 +59,18 @@ User.create!(email:'arno@test.nl', password: 'password', password_confirmation: 
       Het is een hecht clubje met totaal verschillende mensen die elkaar mooi aanvullen.
       Ik heb er ontzettend veel geleerd en heb er zelfs mijn vriendin José ontmoet.'
 )
-User.create!(email:'kevin@test.nl', password: 'password', password_confirmation: 'password',
+u6 = User.create!(email:'kevin@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Kevin', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'includes', 'img', 'kevin.jpg')),
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'kevin.jpg')),
     content:
       'Ik ben Kevin uit Sassenheim en ben het jongste lid van de vereniging.
       Ik houd van paardrijden en boogschieten (te paard) en ik vind het heel erg leuk als we op het weiland gaan schieten.
       Mijn team is een gezellige groep en ik word ook erg geholpen door iedereen.
       Mijn hobby’s zijn: scouting, buitenspelen en knutselen en boogschieten.'
 )
-User.create!(email:'tamara@test.nl', password: 'password', password_confirmation: 'password',
+u7 = User.create!(email:'tamara@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Tamara', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'includes', 'img', 'Tamara.jpg')),
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Tamara.jpg')),
     content:
       'Hoi allemaal ik ben tamara ben 30 jaar en ik doe sinds het nemethy weekend september 2013 aan boogschieten te paard.
       Waarom boogschieten te paard.
@@ -85,9 +85,9 @@ User.create!(email:'tamara@test.nl', password: 'password', password_confirmation
 
       Gr tamara.'
 )
-User.create!(email:'yssette@test.nl', password: 'password', password_confirmation: 'password',
+u8 = User.create!(email:'yssette@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Yssette', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'includes', 'img', 'Yssette.jpg')),
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Yssette.jpg')),
     content:
       'Mijn naam is Yssette.
       Ik ben ooit begonnen als eerste onofficiele jeugdlid van de horsebackarchers.
@@ -99,7 +99,7 @@ User.create!(email:'yssette@test.nl', password: 'password', password_confirmatio
       We hebben een hechte, vaste kern waar iedereen welkom is!
       Ik hoop dat de sport door zal groeien en dat we nog veel meer mensen mogen verwelkomen in onze horsebackarcherfamilie :)'
 )
-User.create!(email:'dorit@test.nl', password: 'password', password_confirmation: 'password',
+u9 = User.create!(email:'dorit@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Dorit', user_type: 0)
 
 
@@ -140,3 +140,5 @@ Blog.create(title:'5',
     She\'s some bunny isn\'t she? Great to see her again, It\'s been years, but,I never forget a face... especially, if I\'ve sat on it. I hope you have the fun with her that I do... I love that little mole on her butt don\'t you? and how about that sensitive left nipple... and what mouth action! I thought jaws only moved that fast in water! You know Lou-Anne, likes to make a guy happy. More than you do for her Marco! But then, you have a problem don\'t you? It\'s called... LIMP DICK. And Lou-Anne is losing patience. Yeah me and Lou- Anne, Lou- Anne and me, we just pump away... singing that song we love... feelings!... nothing more than feelings!')
 
 Agenda.create(title: 'Training', start_at: '2016-03-13 08:30:00.000000', end_at: '2016-03-13 15:00:00.000000', content: 'Zondag is er een training te voet en te paard. Verzamelen 9:30. 10:00 beginnen')
+
+LadderCompetitie.create(user: u1, shot_against: u2, one: 1, two: 2, three: 3, four: 4, five: 5, arrows_shot: 20)
