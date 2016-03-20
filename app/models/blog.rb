@@ -5,7 +5,6 @@ class Blog < ActiveRecord::Base
   after_create :send_mail
 
   def send_mail
-    p "send mail"
     BlogMailer.new_news_item(self)
   end
 end
