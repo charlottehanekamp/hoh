@@ -20,7 +20,7 @@ u2 = User.create!(email:'claire@test.nl', password: 'password', password_confirm
       Nothing! Because if I take it to small claims court, it will just drain eight hours out of my life and you probably wont show up and even if I got the judgment youd just stiff me anyway; so what I am going to do is piss and moan like an impotent jerk, and then '
 )
 u3 = User.create!(email:'janneke@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Janneke', last_name:'Rottman', user_type: 1, functie: 2,
+    first_name:'Janneke', last_name:'Rotman', user_type: 1, functie: 2,
     avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', '1898001_10203086875597761_1013105488_n.jpg')),
     content:
       'Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
