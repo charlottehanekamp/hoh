@@ -37,10 +37,10 @@
           <ul class="nav navbar-nav">
             <li><a href="/app/components/dashboard/dashboardView.html">Dashboard</a></li>
             <li><a href="/app/components/statistieken/statistiekenView.html">Statistieken</a></li>
-            <li><a href="/app/components/user/userView.html">User</a></li>
             <li><a href="/app/components/settings/settingsView.html">Settings</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            <li style="color='white'"><a href="/app/components/user/userView.html">Welkom {{username}}</a></li>
             <li><a href="/app/components/logout/logoutView.html">Logout</a></li>
           </ul>
           <script language="javascript">setPage()</script>
@@ -51,6 +51,7 @@
 
     <div class="container">
       <div class="starter-template">
+        {{username}}
       </div>
     </div>
 

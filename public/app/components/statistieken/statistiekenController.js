@@ -1,6 +1,7 @@
 angular.module('hoh', ['ngCookies'])
-.controller('StatitiekenCtrl', ['$scope', '$http', '$location', '$cookies', '$cookieStore', function($scope, $http, $location, $cookies, $cookieStore){
-  $http.get("/v1/ladder_competities/average.json?token=a90a13d4b70e54df93e4b4c4c54ded2a")
+.controller('StatitiekenCtrl', ['$scope', '$http', '$location', '$cookies', '$cookieStore',  function($scope, $http, $location, $cookies, $cookieStore){
+  $scope.username = $cookies.getObject('user').user.first_name;
+  $http.get("/v1/ladder_competities/average.json?token="+ $cookies.getObject('user').access_token)
     .success(function(data, status) {
         if(status != 200){
             $scope.messages_error = 'Oops, we received your request, but there was an error processing it.';
