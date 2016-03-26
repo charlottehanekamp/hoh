@@ -18,8 +18,9 @@ angular.module('hoh', ['ngCookies'])
       })
       .then(function(data) {
         console.log(data.data.access_token);
-        // $cookieStore.put('myFavorite','oatmeal');
-        $cookies.putObject('user', data.data, {'path': '/'} );
+        var now = new Date();
+        now.setDate(now.getDate()+1);
+        $cookies.putObject('user', data.data, {'path': '/', 'expires': now } );
         $cookies.getObject('user');
 
         window.location.href = "/app/components/dashboard/dashboardView.html";
