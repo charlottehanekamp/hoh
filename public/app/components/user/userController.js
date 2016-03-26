@@ -9,7 +9,6 @@ angular.module('hoh', ['ngCookies'])
     $http.put("/v1/users.json?token=" + $cookies.getObject('user').access_token, {first_name: 'charlie'})
       .success(function(data, status) {
         console.log($scope.email);
-
         $scope.new_profile = {access_token: $cookies.getObject('user').access_token, user: data};
         console.log($scope.new_profile);
       })
