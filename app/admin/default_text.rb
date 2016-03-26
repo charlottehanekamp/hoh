@@ -1,5 +1,7 @@
 ActiveAdmin.register DefaultText do
   permit_params :title, :content_one, :content_two, :content_three, :content_four, :page, :image
+  menu parent: "Extra"
+  # menu priority: 10
 
   index do
     selectable_column

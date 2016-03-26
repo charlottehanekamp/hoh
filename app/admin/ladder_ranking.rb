@@ -1,6 +1,6 @@
 ActiveAdmin.register LadderRanking do
   permit_params :user_id, :rank, :average
-
+  menu parent: "Ladder"
   index do
     selectable_column
     column :user
