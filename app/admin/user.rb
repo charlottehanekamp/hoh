@@ -1,6 +1,7 @@
 ActiveAdmin.register User do
   permit_params :email, :first_name, :last_name, :address, :tel_nr, :hand, :birth_date, :address, :postal_code, :city, :member_since, :nhb_number, :weight, :height, :avatar, :content, :user_type, :functie, :password, :password_confirmation
-
+  menu label: 'Members'
+  menu parent: "User"
   filter :email
   filter :hand
   filter :nhb_number
@@ -81,6 +82,27 @@ ActiveAdmin.register User do
         link_to image_tag(a.avatar.thumb.url), a.avatar.url
       end
     end
+
+    panel 'ladder_competities' do
+      table_for user.ladder_competities do
+        column :user
+        column :shot_against
+        column :one
+        column :two
+        column :three
+        column :four
+        column :five
+        column :arrows_shot
+        column :arrows_hit
+        column :total_without_bonus
+        column :bonus
+        column :total
+        column :shot_at
+      end
+    end
+
   end
+
+
 
 end

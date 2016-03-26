@@ -13,6 +13,7 @@ gem 'activeadmin_hstore_editor'
 gem 'active_admin_theme'
 gem 'select2-rails'
 gem 'activeadmin-select2', github: 'mfairburn/activeadmin-select2'
+gem 'active_skin'
 gem 'turbolinks'
 
 ## PROFILING
