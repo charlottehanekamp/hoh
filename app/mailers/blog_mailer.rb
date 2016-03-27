@@ -4,7 +4,7 @@ class BlogMailer < ApplicationMailer
 
   def new_news_item(news)
     @news = news
-    mail(subject: 'Nieuws')
+    # mail(subject: 'Nieuws')
     p "mail send"
   end
 end

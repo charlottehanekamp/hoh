@@ -1,6 +1,6 @@
 ActiveAdmin.register AccessKey do
   permit_params :access_token, :expires_after, :expires_at, :user_id
-
+  menu parent: "User"
   index do
     selectable_column
     id_column

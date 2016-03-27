@@ -1,6 +1,6 @@
 ActiveAdmin.register LadderCompetitie do
   permit_params :one, :two, :three, :four, :five, :user_id, :shot_against_id, :shot_at, :arrows_hit
-
+  menu parent: "Ladder"
   index do
     selectable_column
     column :user

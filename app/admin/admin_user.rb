@@ -1,6 +1,6 @@
 ActiveAdmin.register AdminUser do
   permit_params :email, :password, :password_confirmation
-
+  menu parent: "User"
   controller do
     def update
       if params[:user][:password].blank?
