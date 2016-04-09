@@ -7,6 +7,7 @@ module API
       mount API::V1::Blogs
       mount API::V1::DefaultTexts
       mount API::V1::LadderCompetities
+      mount API::V1::Rates
       mount API::V1::Users
 
       add_swagger_documentation api_version: 'v1', hide_documentation_path: true
