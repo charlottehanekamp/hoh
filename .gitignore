@@ -3,3 +3,5 @@
 *.json
 *.pid
 .DS_Store
+
+*.json
