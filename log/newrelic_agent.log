@@ -3004,3 +3004,4 @@
 [2016-04-11 11:52:39 +0200 038.190.028.145.hva.nl (12020)] INFO : Doing deferred dependency-detection before Rack startup
 [2016-04-11 11:53:03 +0200 038.190.028.145.hva.nl (12020)] ERROR : Invalid license key, please contact support@newrelic.com
 [2016-04-11 11:53:03 +0200 038.190.028.145.hva.nl (12020)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2016-04-11 13:35:59 +0200 038.190.028.145.hva.nl (12020)] INFO : Starting Agent shutdown
