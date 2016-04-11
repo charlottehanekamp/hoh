@@ -1,3 +1,4 @@
 .log
 .json
 .pid
+.DS_Store
