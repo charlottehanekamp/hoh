@@ -158,8 +158,8 @@ DefaultText.create(title: 'Horsebackarchers of Holland', page: 'index',
     content_four:'
         In onze zoektocht naar verbetering zijn we een samenwerking aangegaan met de Nemethy Horseback Archery Academy in Hongarije. Zij hebben getraind onder Lajos Kassai en hun systeem lijkt daarop. Jaarlijks halen we Christoph Nemethy, tweevoudig Europees kampioen, een weekend naar Nederland voor een intensieve training en ook gaan we met een groep elk jaar naar Hongarije, voor een week lang training. Daarnaast zijn er kontakten met de International Horseback Archery Alliance. Deze heeft een mooi gradensysteem opgezet en houdt postal competities, waaraan we zoveel mogelijk proberen deel te nemen. Verdere internationale contacten zijn er met de World Horseback Archery Foundation, de Steppenreiter, de British Horseback Archery Association, Boureider Lëtzebuerg en nog vele andere verenigingen.')
 
-Rate.create(tile: 'Te Voet 13x', description: '', price: '60', )
-Rate.create(tile: 'Te Voet 6x', description: '', price: '30', )
-Rate.create(tile: 'Te Voet 1x', description: '', price: '7.50', )
-Rate.create(tile: 'Te Paard 1x', description: '', price: '40', )
-Rate.create(tile: 'Materiaal', description: 'halve dag', price: '2.5', )
+Rate.create(title: 'Te Voet 13x', description: '', price: '60', expires_in: 24)
+Rate.create(title: 'Te Voet 6x', description: '', price: '30', expires_in: 12)
+Rate.create(title: 'Te Voet 1x', description: '', price: '7.50', expires_in: 0)
+Rate.create(title: 'Te Paard 1x', description: '', price: '40', expires_in: 0)
+Rate.create(title: 'Materiaal', description: 'halve dag', price: '2.5', expires_in: 0)
