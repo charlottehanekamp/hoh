@@ -1,7 +1,7 @@
 angular.module('hoh', ['ngCookies'])
 
 .controller('MainCtrl', ['$scope', '$http', function($scope, $http){
-  $http.get("/v1/default_text.json?page=index")
+  $http.get("http://hoh-archery.herokuapp.com/v1/default_text.json?page=index")
     .success(function(data, status) {
         if(status == 200){
             console.log("succes");
