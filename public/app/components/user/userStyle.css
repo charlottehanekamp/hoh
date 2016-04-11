@@ -4,3 +4,9 @@
   padding: 2% 5%;
   margin: 3%;
 }
+#upload_icon{
+  width: 10%;
+  position: relative;
+  bottom: -50px;
+  left: -50px;
+}
