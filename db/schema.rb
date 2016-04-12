@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160409091918) do
+ActiveRecord::Schema.define(version: 20160411145722) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -94,19 +94,29 @@ ActiveRecord::Schema.define(version: 20160409091918) do
   create_table "ladder_competities", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "shot_against_id"
-    t.integer  "five",                default: 0
-    t.integer  "four",                default: 0
-    t.integer  "three",               default: 0
-    t.integer  "two",                 default: 0
-    t.integer  "one",                 default: 0
-    t.integer  "total_without_bonus", default: 0
-    t.integer  "total",               default: 0
+    t.integer  "u_five",                 default: 0
+    t.integer  "u_four",                 default: 0
+    t.integer  "u_three",                default: 0
+    t.integer  "u_two",                  default: 0
+    t.integer  "u_one",                  default: 0
+    t.integer  "u_total_without_bonus",  default: 0
+    t.integer  "u_total",                default: 0
     t.date     "shot_at"
-    t.datetime "created_at",                      null: false
-    t.datetime "updated_at",                      null: false
-    t.integer  "arrows_shot",         default: 0
-    t.integer  "arrows_hit",          default: 0
-    t.integer  "bonus",               default: 0
+    t.datetime "created_at",                         null: false
+    t.datetime "updated_at",                         null: false
+    t.integer  "u_arrows_shot",          default: 0
+    t.integer  "u_arrows_hit",           default: 0
+    t.integer  "u_bonus",                default: 0
+    t.integer  "sa_five",                default: 0
+    t.integer  "sa_four",                default: 0
+    t.integer  "sa_three",               default: 0
+    t.integer  "sa_two",                 default: 0
+    t.integer  "sa_one",                 default: 0
+    t.integer  "sa_total_without_bonus", default: 0
+    t.integer  "sa_total",               default: 0
+    t.integer  "sa_arrows_shot",         default: 0
+    t.integer  "sa_arrows_hit",          default: 0
+    t.integer  "sa_bonus",               default: 0
   end
 
   add_index "ladder_competities", ["shot_against_id"], name: "index_ladder_competities_on_shot_against_id", using: :btree

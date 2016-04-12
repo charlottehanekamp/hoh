@@ -142,7 +142,23 @@ Blog.create(title:'5',
 
 Agenda.create(title: 'Training', start_at: '2016-03-13 08:30:00.000000', end_at: '2016-03-13 15:00:00.000000', content: 'Zondag is er een training te voet en te paard. Verzamelen 9:30. 10:00 beginnen')
 
-LadderCompetitie.create(user: u1, shot_against: u2, one: 1, two: 2, three: 3, four: 4, five: 5, arrows_shot: 20)
+LadderCompetitie.create(user: u9, u_one: 1, u_two: 2, u_three: 3, u_four: 4, u_five: 6, u_arrows_shot: 21, shot_at: Date.current,
+                shot_against: u8, sa_one: 1, sa_two: 2, sa_three: 3, sa_four: 4, sa_five: 5, sa_arrows_shot: 20)
+
+LadderCompetitie.create(user: u9, u_one: 1, u_two: 2, u_three: 3, u_four: 4, u_five: 6, u_arrows_shot: 21, shot_at: Date.current,
+                shot_against: u7, sa_one: 1, sa_two: 2, sa_three: 3, sa_four: 4, sa_five: 5, sa_arrows_shot: 20)
+
+LadderCompetitie.create(user: u9, u_one: 1, u_two: 2, u_three: 3, u_four: 4, u_five: 6, u_arrows_shot: 21, shot_at: Date.current,
+                shot_against: u5, sa_one: 1, sa_two: 2, sa_three: 3, sa_four: 4, sa_five: 5, sa_arrows_shot: 20)
+
+LadderCompetitie.create(user: u9, u_one: 1, u_two: 2, u_three: 3, u_four: 4, u_five: 5, u_arrows_shot: 20, shot_at: Date.current,
+                shot_against: u4, sa_one: 1, sa_two: 2, sa_three: 3, sa_four: 4, sa_five: 6, sa_arrows_shot: 21)
+
+LadderCompetitie.create(user: u4, u_one: 1, u_two: 2, u_three: 3, u_four: 4, u_five: 5, u_arrows_shot: 20, shot_at: Date.current,
+                shot_against: u3, sa_one: 1, sa_two: 2, sa_three: 3, sa_four: 4, sa_five: 6, sa_arrows_shot: 21)
+
+LadderCompetitie.create(user: u3, u_one: 1, u_two: 2, u_three: 3, u_four: 4, u_five: 6, u_arrows_shot: 21, shot_at: Date.current,
+                shot_against: u1, sa_one: 1, sa_two: 2, sa_three: 3, sa_four: 4, sa_five: 5, sa_arrows_shot: 20)
 
 DefaultText.create(title: 'Horsebackarchers of Holland', page: 'index',
     image: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'hoh_logo.png')),
