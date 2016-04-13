@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160411145722) do
+ActiveRecord::Schema.define(version: 20160413113959) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -125,9 +125,9 @@ ActiveRecord::Schema.define(version: 20160411145722) do
   create_table "ladder_rankings", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "rank"
-    t.decimal  "average",    precision: 6, scale: 2
-    t.datetime "created_at",                         null: false
-    t.datetime "updated_at",                         null: false
+    t.datetime "created_at",                                       null: false
+    t.datetime "updated_at",                                       null: false
+    t.decimal  "average",    precision: 6, scale: 2, default: 0.0
   end
 
   add_index "ladder_rankings", ["user_id"], name: "index_ladder_rankings_on_user_id", using: :btree

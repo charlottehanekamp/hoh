@@ -14,6 +14,7 @@ class LadderCompetitie < ActiveRecord::Base
   validate :arrows_hit_cannot_be_greater_than_arrows_shot_sa
 
   protected
+
   def calculate_bonus_u
     self.u_bonus = self.u_arrows_shot - 4
     self.u_bonus < 0 ?  self.u_bonus = 0 : self.u_bonus
