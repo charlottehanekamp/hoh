@@ -1,0 +1,76 @@
+
+Gewonnen: #9. Dorit  - #8 Yssette       D -> 8 : Y -> 9
+Gewonnen: #9. Dorit  - #7. Tamara       D -> 7 : T -> 8
+Gewonnen: #7. Dorit  - #5. Arno         D -> 5 : A -> 6, K -> 7
+Verloren: #5. Dorit  - #4. Jose
+Verloren: #4. Jose  - #3. Janneke
+Gewonnen: #3. Janneke  - #1. Charlotte  J -> 1 : CH -> 2, CJH -> 3
+Gewonnen: #5. Dorit  - #9. Yssette
+Gewonnen: #5. Dorit  - #8. Tamara
+Gewonnen: #5. Dorit  - #7. Arno
+Verloren: #5. Dorit  - #4. Jose
+Verloren: #4. Jose  - #1. Janneke
+Gewonnen: #1. Janneke  - #3. Charlotte
+
+
+Gewonnen: #9. Dorit  - #8. Yssette
+8
+Gewonnen: #9. Dorit  - #7. Tamara
+7
+8
+Gewonnen: #9. Dorit  - #5. Arno
+5
+6
+7
+8
+Verloren: #9. Dorit  - #4. Jose
+Verloren: #4. Jose  - #3. Janneke
+Gewonnen: #3. Janneke  - #1. Charlotte
+1
+2
+Gewonnen: #9. Dorit  - #8. Yssette
+9
+8
+Gewonnen: #9. Dorit  - #7. Tamara
+9
+8
+7
+Gewonnen: #9. Dorit  - #5. Arno
+9
+8
+7
+6
+5
+Verloren: #9. Dorit  - #4. Jose
+Verloren: #4. Jose  - #3. Janneke
+Gewonnen: #3. Janneke  - #1. Charlotte
+3
+2
+1
+Gewonnen: #9. Dorit  - #8. Yssette
+8
+Gewonnen: #9. Dorit  - #7. Tamara
+8
+7
+Gewonnen: #9. Dorit  - #5. Arno
+8
+7
+6
+5
+Verloren: #9. Dorit  - #4. Jose
+Verloren: #4. Jose  - #3. Janneke
+Gewonnen: #3. Janneke  - #1. Charlotte
+2
+1
+Gewonnen: #9. Dorit  - #8. Yssette
+8
+Gewonnen: #8. Dorit  - #7. Tamara
+7
+Gewonnen: #7. Dorit  - #5. Arno
+6
+5
+Verloren: #5. Dorit  - #4. Jose
+Verloren: #4. Jose  - #3. Janneke
+Gewonnen: #3. Janneke  - #1. Charlotte
+2
+1
