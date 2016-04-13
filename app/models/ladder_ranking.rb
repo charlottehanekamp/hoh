@@ -20,23 +20,19 @@ class LadderRanking < ActiveRecord::Base
     p l
   end
 
-  def update_ranking_every_day
-    l_ranking = LadderRanking.order('rank desc').first
-    competities = LadderCompetitie.where('shot_at = ?', Date.current).order('created_at asc')
-    competities.each do |c|
-      c_r = c.user.ladder_ranking.rank
-      c_sa = c.shot_against.ladder_ranking.rank
-      r = "##{c_r}. #{c.user.first_name}  - ##{c_sa}. #{c.shot_against.first_name}"
+  def update_ranking(c)
+    c_r = c.user.ladder_ranking.rank
+    c_sa = c.shot_against.ladder_ranking.rank
+    r = "##{c_r}. #{c.user.first_name}  - ##{c_sa}. #{c.shot_against.first_name}"
 
-      if c.u_total > c.sa_total
-        gewonnen(c_r, c_sa, c, r)
-      elsif c.u_arrows_shot > c.sa_arrows_shot
-        gewonnen(c_r, c_sa, c, r)
-      elsif c.u_arrows_hit > c.sa_arrows_hit
-        gewonnen(c_r, c_sa, c, r)
-      else
-        verloren(c_r, c_sa, c, r)
-      end
+    if c.u_total > c.sa_total
+      gewonnen(c_r, c_sa, c, r)
+    elsif c.u_arrows_shot > c.sa_arrows_shot
+      gewonnen(c_r, c_sa, c, r)
+    elsif c.u_arrows_hit > c.sa_arrows_hit
+      gewonnen(c_r, c_sa, c, r)
+    else
+      verloren(c_r, c_sa, c, r)
     end
   end
 

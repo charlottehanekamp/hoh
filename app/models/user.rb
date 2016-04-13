@@ -13,7 +13,7 @@ class User < ActiveRecord::Base
   validates_format_of :postal_code, :with => /\A[\w]{4}[A-Z]{2}\z/, message: :bad_postal_code, :allow_blank => true
   validates_format_of :tel_nr, :with => /\A((06[0-9]{1})|(0[0-9]{2}))[0-9]{7}\z/, message: :bad_tel, :allow_blank => true
   after_create :put_user_in_ladder_ranking
-  after_save :update_ranking
+  # after_save :update_ranking
   enum hand: [:links, :rechts]
   enum user_type: [:lid, :bestuur, :donateur]
   enum functie: [:voorzitter, :secretaris, :penningmeester]
