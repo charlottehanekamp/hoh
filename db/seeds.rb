@@ -142,33 +142,7 @@ Blog.create(title:'5',
 
 Agenda.create(title: 'Training', start_at: '2016-03-13 08:30:00.000000', end_at: '2016-03-13 15:00:00.000000', content: 'Zondag is er een training te voet en te paard. Verzamelen 9:30. 10:00 beginnen')
 
-# 2 day ago
-LadderCompetitie.create(user: u9, u_arrows_shot: 10, u_five: 2, u_four: 2, u_three: 2, u_two: 2, u_one: 2, shot_at: 2.day.ago,
-                shot_against: u8, sa_arrows_shot: 8, sa_five: 1, sa_four: 0, sa_three: 3, sa_two: 3, sa_one: 0)
 
-LadderCompetitie.create(user: u9, u_arrows_shot: 10, u_five: 4, u_four: 0, u_three: 1, u_two: 4, u_one: 1, shot_at: 2.day.ago,
-                shot_against: u6, sa_arrows_shot: 10, sa_five: 4, sa_four: 1, sa_three: 1, sa_two: 2, sa_one: 1)
-
-LadderCompetitie.create(user: u9, u_arrows_shot: 8, u_five: 1, u_four: 0, u_three: 3, u_two: 3, u_one: 0, shot_at: 2.day.ago,
-                shot_against: u3, sa_arrows_shot: 10, sa_five: 4, sa_four: 1, sa_three: 1, sa_two: 2, sa_one: 1)
-
-LadderCompetitie.create(user: u3, u_arrows_shot: 11, u_five: 1, u_four: 2, u_three: 2, u_two: 1, u_one: 4, shot_at: 2.day.ago,
-                shot_against: u2, sa_arrows_shot: 10, sa_five: 1, sa_four: 2, sa_three: 2, sa_two: 1, sa_one: 4)
-
-LadderCompetitie.create(user: u2, u_arrows_shot: 10, u_five: 2, u_four: 2, u_three: 2, u_two: 2, u_one: 2, shot_at: 2.day.ago,
-                shot_against: u1, sa_arrows_shot: 12, sa_five: 3, sa_four: 1, sa_three: 2, sa_two: 4, sa_one: 2)
-
-# 1 day ago
-LadderCompetitie.create(user: u7, u_arrows_shot: 10, u_five: 4, u_four: 0, u_three: 1, u_two: 4, u_one: 1, shot_at: 1.day.ago,
-                shot_against: u5, sa_arrows_shot: 10, sa_five: 4, sa_four: 1, sa_three: 1, sa_two: 2, sa_one: 1)
-
-LadderCompetitie.create(user: u7, u_arrows_shot: 12, u_five: 3, u_four: 1, u_three: 2, u_two: 6, u_one: 0, shot_at: 1.day.ago,
-                shot_against: u4, sa_arrows_shot: 10, sa_five: 1, sa_four: 2, sa_three: 2, sa_two: 1, sa_one: 4)
-
-LadderCompetitie.create(user: u7, u_arrows_shot: 10, u_five: 2, u_four: 2, u_three: 2, u_two: 2, u_one: 2, shot_at: 1.day.ago,
-                shot_against: u2, sa_arrows_shot: 10, sa_five: 4, sa_four: 1, sa_three: 1, sa_two: 2, sa_one: 1)
-
-# today
 LadderCompetitie.create(user: u8, u_arrows_shot: 6, u_five: 1, u_four: 0, u_three: 5, u_two: 0, u_one: 0, shot_at: Date.current,
                 shot_against: u9, sa_arrows_shot: 6, sa_five: 0, sa_four: 0, sa_three: 6, sa_two: 0, sa_one: 0)
 

@@ -4392,3 +4392,109 @@
 [2016-04-13 16:20:20 +0200 MacBook-Pro-van-Hanneke-2.local (49582)] INFO : Installing Rails 4 view instrumentation
 [2016-04-13 16:20:20 +0200 MacBook-Pro-van-Hanneke-2.local (49582)] INFO : Installing Rails 4 Error instrumentation
 [2016-04-13 16:20:20 +0200 MacBook-Pro-van-Hanneke-2.local (49582)] INFO : Finished instrumentation
+[2016-04-14 11:38:29 +0200 MacBook-Pro-van-Hanneke-2.local (44928)] INFO : Starting Agent shutdown
+[2016-04-15 12:10:49 +0200 055.227.028.145.hva.nl (54034)] INFO : Starting the New Relic agent in "development" environment.
+[2016-04-15 12:10:49 +0200 055.227.028.145.hva.nl (54034)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-04-15 12:10:49 +0200 055.227.028.145.hva.nl (54034)] WARN : No configuration file found. Working directory = /Users/charlotte/HorsebackArchersOfHolland
+[2016-04-15 12:10:49 +0200 055.227.028.145.hva.nl (54034)] WARN : Looked in these locations (based on defaults): /Users/charlotte/HorsebackArchersOfHolland/config/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/config/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/newrelic.yml, /Users/charlotte/.newrelic/newrelic.yml, /Users/charlotte/newrelic.yml
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : Environment: development
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : No known dispatcher detected.
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : Application: development
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing ActiveJob instrumentation
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing ActiveRecord 4+ instrumentation
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing New Relic supported Grape instrumentation
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing Net instrumentation
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-04-15 12:10:50 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-04-15 12:10:51 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-04-15 12:10:51 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing Rails 4 Controller instrumentation
+[2016-04-15 12:10:51 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing Rails 4 view instrumentation
+[2016-04-15 12:10:51 +0200 055.227.028.145.hva.nl (54034)] INFO : Installing Rails 4 Error instrumentation
+[2016-04-15 12:10:51 +0200 055.227.028.145.hva.nl (54034)] INFO : Finished instrumentation
+[2016-04-15 12:10:59 +0200 055.227.028.145.hva.nl (54034)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-04-15 12:11:09 +0200 055.227.028.145.hva.nl (54034)] ERROR : Invalid license key, please contact support@newrelic.com
+[2016-04-15 12:11:09 +0200 055.227.028.145.hva.nl (54034)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2016-04-17 14:31:33 +0200 055.227.028.145.hva.nl (54034)] INFO : Starting Agent shutdown
+[2016-04-17 14:32:31 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Starting the New Relic agent in "development" environment.
+[2016-04-17 14:32:31 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-04-17 14:32:31 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] WARN : No configuration file found. Working directory = /Users/charlotte/HorsebackArchersOfHolland
+[2016-04-17 14:32:31 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] WARN : Looked in these locations (based on defaults): /Users/charlotte/HorsebackArchersOfHolland/config/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/config/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/newrelic.yml, /Users/charlotte/.newrelic/newrelic.yml, /Users/charlotte/newrelic.yml
+[2016-04-17 14:32:31 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Environment: development
+[2016-04-17 14:32:31 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : No known dispatcher detected.
+[2016-04-17 14:32:31 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Application: development
+[2016-04-17 14:32:31 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing ActiveJob instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing ActiveRecord 4+ instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing New Relic supported Grape instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing Net instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing Rails 4 Controller instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing Rails 4 view instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Installing Rails 4 Error instrumentation
+[2016-04-17 14:32:32 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Finished instrumentation
+[2016-04-17 14:32:40 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-04-17 14:32:55 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] ERROR : Invalid license key, please contact support@newrelic.com
+[2016-04-17 14:32:55 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2016-04-18 17:32:35 +0200 MacBook-Pro-van-Hanneke-2.local (57280)] INFO : Starting Agent shutdown
+[2016-04-18 18:02:53 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Starting the New Relic agent in "development" environment.
+[2016-04-18 18:02:53 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-04-18 18:02:53 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] WARN : No configuration file found. Working directory = /Users/charlotte/HorsebackArchersOfHolland
+[2016-04-18 18:02:53 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] WARN : Looked in these locations (based on defaults): /Users/charlotte/HorsebackArchersOfHolland/config/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/config/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/newrelic.yml, /Users/charlotte/.newrelic/newrelic.yml, /Users/charlotte/newrelic.yml
+[2016-04-18 18:02:53 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Environment: development
+[2016-04-18 18:02:53 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : No known dispatcher detected.
+[2016-04-18 18:02:53 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Application: development
+[2016-04-18 18:02:53 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing ActiveJob instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing ActiveRecord 4+ instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing New Relic supported Grape instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing Net instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing Rails 4 Controller instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing Rails 4 view instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Installing Rails 4 Error instrumentation
+[2016-04-18 18:02:54 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Finished instrumentation
+[2016-04-18 18:03:07 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-04-18 18:03:36 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2016-04-18 18:03:36 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: getaddrinfo: nodename nor servname provided, or not known
+[2016-04-18 18:03:36 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Will re-attempt in 60 seconds
+[2016-04-18 18:04:36 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2016-04-18 18:04:36 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: getaddrinfo: nodename nor servname provided, or not known
+[2016-04-18 18:04:36 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Will re-attempt in 120 seconds
+[2016-04-18 18:06:37 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2016-04-18 18:06:37 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: getaddrinfo: nodename nor servname provided, or not known
+[2016-04-18 18:06:37 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Will re-attempt in 180 seconds
+[2016-04-18 18:09:37 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2016-04-18 18:09:37 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: getaddrinfo: nodename nor servname provided, or not known
+[2016-04-18 18:09:37 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Will re-attempt in 240 seconds
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Starting the New Relic agent in "development" environment.
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] WARN : No configuration file found. Working directory = /Users/charlotte/HorsebackArchersOfHolland
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] WARN : Looked in these locations (based on defaults): /Users/charlotte/HorsebackArchersOfHolland/config/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/config/newrelic.yml, /Users/charlotte/HorsebackArchersOfHolland/newrelic.yml, /Users/charlotte/.newrelic/newrelic.yml, /Users/charlotte/newrelic.yml
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Environment: development
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : No known dispatcher detected.
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Application: development
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing ActiveJob instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing ActiveRecord 4+ instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing New Relic supported Grape instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing Net instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing Rails 4 Controller instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing Rails 4 view instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Installing Rails 4 Error instrumentation
+[2016-04-18 18:12:12 +0200 MacBook-Pro-van-Hanneke-2.local (61399)] INFO : Finished instrumentation
+[2016-04-18 18:13:38 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2016-04-18 18:13:38 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: getaddrinfo: nodename nor servname provided, or not known
+[2016-04-18 18:13:38 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Will re-attempt in 300 seconds
+[2016-04-18 18:18:38 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2016-04-18 18:18:38 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error talking to collector.newrelic.com:443 after 2 attempts: getaddrinfo: nodename nor servname provided, or not known
+[2016-04-18 18:18:38 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] INFO : Will re-attempt in 360 seconds
+[2016-04-18 18:24:40 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : Invalid license key, please contact support@newrelic.com
+[2016-04-18 18:24:40 +0200 MacBook-Pro-van-Hanneke-2.local (61076)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.

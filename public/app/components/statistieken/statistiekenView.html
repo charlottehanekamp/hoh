@@ -11,18 +11,22 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-cookies.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.0/Chart.js"></script> -->
 
-    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <!-- <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
     <script src="https://www.amcharts.com/lib/3/serial.js"></script>
     <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
     <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
     <script src="https://www.amcharts.com/lib/3/themes/chalk.js"></script>
     <script src="https://www.amcharts.com/lib/3/themes/patterns.js"></script>
-    <script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/none.js"></script> -->
 
     <script src="statistiekenController.js"></script>
     <!-- <script src="/assets/js/chart.js"></script> -->
     <script language="javascript" src="/assets/js/highlight.js"></script>
+
+    <script src = "http://cdn.zingchart.com/zingchart.min.js" ></script>
+    <script src = "http://cdn.zingchart.com/angular/zingchart-angularjs.js" ></script>
 
     <link rel="shortcut icon" type="image/jpg" href="/assets/img/watermerk.jpg"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -30,7 +34,7 @@
     <link rel="stylesheet" href="statistiekenStyle.css">
 
   </head>
-  <body ng-app="hoh" ng-controller="StatitiekenCtrl">
+  <body ng-app="hoh" ng-controller="Statitieken1Ctrl">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -70,7 +74,7 @@
     <div class="container">
       <div class="starter-template">
         <div class="statitieken">
-          <div id="chartdiv" chart-data="averages"></div>
+          <zingchart id = "ladder_competities" zc-json = "myJson" zc-height = 500 zc-width = 600 ></zingchart>
         </div>
       </div>
     </div>
