@@ -1,6 +1,6 @@
 ActiveAdmin.register LadderCompetitie do
-  permit_params :u_one, :u_two, :u_three, :u_four, :u_five, :u_arrows_hit, :user_id, :shot_against_id, :shot_at,
-                :sa_one, :sa_two, :sa_three, :sa_four, :sa_five, :sa_arrows_hit
+  permit_params :u_one, :u_two, :u_three, :u_four, :u_five, :u_arrows_shot, :user_id, :shot_against_id, :shot_at,
+                :sa_one, :sa_two, :sa_three, :sa_four, :sa_five, :sa_arrows_shot
   menu parent: "Ladder"
   index do
     selectable_column
@@ -31,16 +31,16 @@ ActiveAdmin.register LadderCompetitie do
       f.input :u_three
       f.input :u_four
       f.input :u_five
-      f.input :u_arrows_hit
+      f.input :u_arrows_shot
     end
-    
+
     f.inputs "Uitgedaagde Details" do
       f.input :sa_one
       f.input :sa_two
       f.input :sa_three
       f.input :sa_four
       f.input :sa_five
-      f.input :sa_arrows_hit
+      f.input :sa_arrows_shot
     end
 
     f.actions
@@ -56,7 +56,7 @@ ActiveAdmin.register LadderCompetitie do
       row :u_four
       row :u_five
       row :u_arrows_shot
-      row :u_arrows_hit
+      row :u_arrows_shot
       row :u_bonus
       row :u_total_without_bonus
       row :u_total
@@ -67,7 +67,7 @@ ActiveAdmin.register LadderCompetitie do
       row :sa_four
       row :sa_five
       row :sa_arrows_shot
-      row :sa_arrows_hit
+      row :sa_arrows_shot
       row :sa_bonus
       row :sa_total_without_bonus
       row :sa_total
