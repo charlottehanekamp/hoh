@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160413113959) do
+ActiveRecord::Schema.define(version: 20160418211255) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -91,6 +91,14 @@ ActiveRecord::Schema.define(version: 20160413113959) do
     t.datetime "updated_at",    null: false
   end
 
+  create_table "galleries", force: :cascade do |t|
+    t.string   "title"
+    t.string   "location"
+    t.date     "date_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "ladder_competities", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "shot_against_id"
@@ -131,6 +139,15 @@ ActiveRecord::Schema.define(version: 20160413113959) do
   end
 
   add_index "ladder_rankings", ["user_id"], name: "index_ladder_rankings_on_user_id", using: :btree
+
+  create_table "pictures", force: :cascade do |t|
+    t.string   "image"
+    t.integer  "gallery_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "pictures", ["gallery_id"], name: "index_pictures_on_gallery_id", using: :btree
 
   create_table "rates", force: :cascade do |t|
     t.string   "title"

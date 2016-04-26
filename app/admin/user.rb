@@ -83,20 +83,33 @@ ActiveAdmin.register User do
       end
     end
 
-    panel 'ladder_competities' do
+    panel 'Uitdager competities' do
       table_for user.ladder_competities do
         column :user
         column :shot_against
-        column :one
-        column :two
-        column :three
-        column :four
-        column :five
-        column :arrows_shot
-        column :arrows_hit
-        column :total_without_bonus
-        column :bonus
-        column :total
+        column :u_arrows_shot
+        column :u_arrows_hit
+        column :u_bonus
+        column :u_total
+        column :sa_arrows_shot
+        column :sa_arrows_hit
+        column :sa_bonus
+        column :sa_total
+        column :shot_at
+      end
+    end
+    panel 'Uitgedaagde competities' do
+      table_for LadderCompetitie.where(shot_against: user) do
+        column :user
+        column :shot_against
+        column :u_arrows_shot
+        column :u_arrows_hit
+        column :u_bonus
+        column :u_total
+        column :sa_arrows_shot
+        column :sa_arrows_hit
+        column :sa_bonus
+        column :sa_total
         column :shot_at
       end
     end

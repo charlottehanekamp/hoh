@@ -8,8 +8,12 @@
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
 u1 = User.create!(email:'charlie.5991@gmail.com', password: 'password', password_confirmation: 'password',
-    first_name:'Charlotte', last_name:'Hanekamp', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', '12107712_898803356868321_4916923459866462126_n.jpg'))
+    first_name:'Charlotte', last_name:'Hanekamp', user_type: 1, functie: 1,
+    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', '12107712_898803356868321_4916923459866462126_n.jpg')),
+    content:
+      'Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
+      Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
+      Nothing! Because if I take it to small claims court, it will just drain eight hours out of my life and you probably wont show up and even if I got the judgment youd just stiff me anyway; so what I am going to do is piss and moan like an impotent jerk, and then '
 )
 u2 = User.create!(email:'claire@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Claire', last_name:'Hagen', user_type: 1, functie: 0,

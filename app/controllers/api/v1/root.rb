@@ -6,6 +6,7 @@ module API
       mount API::V1::Auth
       mount API::V1::Blogs
       mount API::V1::DefaultTexts
+      mount API::V1::Galleries
       mount API::V1::LadderCompetities
       mount API::V1::LadderRankings
       mount API::V1::Rates
