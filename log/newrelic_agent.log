@@ -4579,3 +4579,44 @@
 [2018-11-10 11:26:10 +0100 charlottes-MacBook-Pro.local (87429)] ERROR : Invalid license key, please contact support@newrelic.com
 [2018-11-10 11:26:10 +0100 charlottes-MacBook-Pro.local (87429)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [2018-11-10 11:29:19 +0100 charlottes-MacBook-Pro.local (87429)] INFO : Starting Agent shutdown
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Environment: development
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : No known dispatcher detected.
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Application: development
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing ActiveJob instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing ActiveRecord 4 instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing New Relic supported Grape instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing Net instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing Rails 4 Controller instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Installing Rails 4 view instrumentation
+[2018-11-10 16:55:47 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Finished instrumentation
+[2018-11-10 16:55:52 +0100 charlottes-MacBook-Pro.local (93552)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Environment: development
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : No known dispatcher detected.
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Application: development
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing ActiveJob instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing ActiveRecord 4 instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing New Relic supported Grape instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing Net instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing Rails 4 Controller instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Installing Rails 4 view instrumentation
+[2018-11-10 17:50:28 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Finished instrumentation
+[2018-11-10 17:50:31 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-11-10 17:50:42 +0100 charlottes-MacBook-Pro.local (94818)] ERROR : Invalid license key, please contact support@newrelic.com
+[2018-11-10 17:50:42 +0100 charlottes-MacBook-Pro.local (94818)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2018-11-10 22:22:36 +0100 charlottes-MacBook-Pro.local (94818)] INFO : Starting Agent shutdown

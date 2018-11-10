@@ -37,7 +37,10 @@ u4 = User.create!(email:'kevin@test.nl', password: 'password', password_confirma
       Mijn hobby’s zijn: scouting, buitenspelen en knutselen en boogschieten.'
 )
 u5 = User.create!(email:'dorit@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Dorit', user_type: 0)
+    first_name:'Dorit', user_type: 1,
+    content:
+     'Ik ben Dorit Uebachs, 45 jaar oud en sinds het begin van de Horsebackarchers of Holland erbij. Ik schiet al sinds 10 jaar boog en van begin aan leek me dat in verbinding met mijn andere hobby, het paardrijden, een droom. Ik ben via een handboogforum op internet met Claire in contact gekomen. Op dat moment organiseerde zij nog Bajutsu trainingen. Een Japanse vechtkunst te paard. Maar behalve de boog werd daar ook met speer, zwaard en grepen gewerkt en ofschoon ik er voor het boogschieten ben gekomen is dat er in die (korte) tijd nooit van gekomen. Omdat het met Bajutsu van alles een beetje is en er niet de tijd en ruimte was om alle onderdelen goed te trainen besloot Claire toen zich puur op het boogschieten te paard te richten. Enthousiast deed ik aan alle trainingen mee en snel begonnen wij ook an clinics in Duitsland en Luxembourg deel te nemen. 2012 gingen wij voor het eerst met een paar mensen naar een week trainingskamp in Hongarije waar wij in korte tijd ongelooflijk veel hebben geleerd. Ook halen wij af en toe mensen naar onze lessen, die ons weer een andere kijk op de dingen geven. Zo ben ik op de duimringtechniek gestoten en op het moment de enige bij ons die met deze techniek schiet. Dat is het leuke aan deze sport: Iedereen kan zijn eigen weg vinden en dat doen wat het beste bij hem past. Sinds 2 jaar heb ik een eigen paard en, zo paradox als het klinkt, schiet ik veel minder. Helaas is er de tijd en met name het geld niet meer om naar trainingen of wedstrijden in het buitenland te gaan. Maar nog steeds doe ik mee met de trainingen in Rijpwetering en probeer als lid van het bestuur mijn (met name creatieve) bijdrage aan onze geweldige club te leveren.'
+)
 
 
 Blog.create(title:'1',
@@ -77,7 +80,7 @@ Blog.create(title:'5',
         I\'m an angel. I kill firstborns while their mamas watch. I turn cities into salt. I even, when I feel like it, rip the souls from little girls, and from now till kingdom come, the only thing you can count on in your existence is never understanding why.
         She\'s some bunny isn\'t she? Great to see her again, It\'s been years, but,I never forget a face... especially, if I\'ve sat on it. I hope you have the fun with her that I do... I love that little mole on her butt don\'t you? and how about that sensitive left nipple... and what mouth action! I thought jaws only moved that fast in water! You know Lou-Anne, likes to make a guy happy. More than you do for her Marco! But then, you have a problem don\'t you? It\'s called... LIMP DICK. And Lou-Anne is losing patience. Yeah me and Lou- Anne, Lou- Anne and me, we just pump away... singing that song we love... feelings!... nothing more than feelings!')
 
-Agenda.create(title: 'Training', start_at: '2016-03-13 08:30:00.000000', end_at: '2016-03-13 15:00:00.000000', content: 'Zondag is er een training te voet en te paard. Verzamelen 9:30. 10:00 beginnen')
+Agenda.create(title: 'Training', start_at: '2018-11-18 09:30:00.000000', end_at: '2018-11-18 12:00:00.000000', content: 'Zondag is er een training te voet en te paard. Verzamelen 9:30. 10:00 beginnen')
 
 
 # LadderCompetitie.create(user: u8, u_arrows_shot: 6, u_five: 1, u_four: 0, u_three: 5, u_two: 0, u_one: 0, shot_at: Date.current,
