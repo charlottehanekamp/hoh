@@ -27,39 +27,7 @@ u3 = User.create!(email:'janneke@test.nl', password: 'password', password_confir
       Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
       Nothing! Because if I take it to small claims court, it will just drain eight hours out of my life and you probably wont show up and even if I got the judgment youd just stiff me anyway; so what I am going to do is piss and moan like an impotent jerk, and then '
 )
-u4 = User.create!(email:'jose@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Jose', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Jose.jpg')),
-    content:
-      'Mijn naam is José en ik ben 30 jaar.
-      Ik rijd al sinds mijn 9e paard en ben ook gediplomeerd instructrice.
-      In het verleden heb ik vooral jonge paarden gereden en mij gericht op de dressuur/springsport.
-      Ik heb ook een eigen paardje; Flint.
-      Het is een KWPN-ruin van nu 5 jaar.
-      Nadat hij vorig jaar een blessure heeft gehad ben ik eens rond gaan kijken wat ik anders met hem kon doen en toen op Horsebackarchery gestuit.
-      Ik vind de sport echt super leuk! Omdat je de controle te paard soms even moet laten gaan leer je beter naar je paard te luisteren en te communiceren.
-      En de groep helpt elkaar om te verbeteren.
-      Daarbij is het ook erg gezellig.
-      Ook het paard vind het leuk, voor ik de gang in ga wordt hij al ongeduldig en galoppeert snel aan wanneer dit mag.
-      Ik hoop dat deze sport nog flink zal groeien in Nederland en ik kan het dan ook iedereen aanbevelen!'
-)
-u5 = User.create!(email:'arno@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Arno', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Arno.jpg')),
-    content:
-      'Ik ben Arno Hendriks, 32 jaar en heb 2 paarden.
-      De merrie Vanilla, hartstikke geschikt voor boogschieten te paard, maar helaas met pensioen,
-      en de ruin Volare, door zijn pit iets minder geschikt maar wel leuker.
-      Steeds buitenritjes maken wordt na een tijd een beetje saai, maar de meeste paardensporten leken mij vooral veel gedoe en weinig plezier.
-      Nadat ik een spel had gespeeld waarin mijn leger werd afgeslacht door boogschutters te paard raakte ik geïnteresseerd in de sport.
-      Ik ben begonnen door op het internet filmpjes te kijken en dat uit te proberen met mijn paard Volare.
-      Na veel vallen en opstaan (het niet lukken om pijlen te nokken) ben ik andere mensen gaan zoeken die dit ook deden.
-      Ik vond de Horsebackarchers of Holland waar ik hartelijk werd ontvangen en inmiddels kom ik er zo\'n twee jaar met veel plezier.
-      Het is een hele rit vanuit Kaatsheuvel, maar ik heb het er graag voor over.
-      Het is een hecht clubje met totaal verschillende mensen die elkaar mooi aanvullen.
-      Ik heb er ontzettend veel geleerd en heb er zelfs mijn vriendin José ontmoet.'
-)
-u6 = User.create!(email:'kevin@test.nl', password: 'password', password_confirmation: 'password',
+u4 = User.create!(email:'kevin@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Kevin', user_type: 0,
     avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'kevin.jpg')),
     content:
@@ -68,38 +36,7 @@ u6 = User.create!(email:'kevin@test.nl', password: 'password', password_confirma
       Mijn team is een gezellige groep en ik word ook erg geholpen door iedereen.
       Mijn hobby’s zijn: scouting, buitenspelen en knutselen en boogschieten.'
 )
-u7 = User.create!(email:'tamara@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Tamara', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Tamara.jpg')),
-    content:
-      'Hoi allemaal ik ben tamara ben 30 jaar en ik doe sinds het nemethy weekend september 2013 aan boogschieten te paard.
-      Waarom boogschieten te paard.
-      Ik heb zelf 2 tinkers, bonita en mistie zijn geen paarden om alleen maar sport mee te rijden.
-      En zelf vind ik dat ook niet leuk.
-      Via een vriendin kwam ik in aanraking met de horsebackarhers of Holland.
-      Het is altijd gezellig en we zijn een hechte groep vrienden.
-      Ook zijn we al 2 jaar achter elkaar naar Hongarije geweest met een groep.
-      Daar heb ik echt heel veel geleerd en is een super leuke ervaring.
-      Ik hoop dat ik nog lang kan genieten van deze sport en dat het steeds meer gaat groeien in Nederland.
-      Ik hoop jullie te zien bij 1 van de trainingen.
-
-      Gr tamara.'
-)
-u8 = User.create!(email:'yssette@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Yssette', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Yssette.jpg')),
-    content:
-      'Mijn naam is Yssette.
-      Ik ben ooit begonnen als eerste onofficiele jeugdlid van de horsebackarchers.
-      Ik draai al mee sinds 6 juni 2010 en ben nooit meer gestopt.
-      Ik vind het boogschieten te paard leuk, omdat ik een teamgevoel krijg.
-      Het loslaten en vertrouwen op het paard is daar ook onderdeel van en kan soms heel spannend zijn.
-      Als groep zijn wij heel hecht.
-      We trainen vaak samen en iedereen kent elkaars kritiekpuntjes.
-      We hebben een hechte, vaste kern waar iedereen welkom is!
-      Ik hoop dat de sport door zal groeien en dat we nog veel meer mensen mogen verwelkomen in onze horsebackarcherfamilie :)'
-)
-u9 = User.create!(email:'dorit@test.nl', password: 'password', password_confirmation: 'password',
+u5 = User.create!(email:'dorit@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Dorit', user_type: 0)
 
 

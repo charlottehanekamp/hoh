@@ -24,3 +24,7 @@ set :output, {:error => "log/cron_error_log.log", :standard => "log/cron_log.log
 every 1.day, :at => '1:30 am' do
   rake "ranking_update"
 end
+
+every 1.day, :at => '1:30 am' do
+  rake "email_agenda"
+end
