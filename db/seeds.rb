@@ -80,17 +80,17 @@ Blog.create(title:'5',
 Agenda.create(title: 'Training', start_at: '2016-03-13 08:30:00.000000', end_at: '2016-03-13 15:00:00.000000', content: 'Zondag is er een training te voet en te paard. Verzamelen 9:30. 10:00 beginnen')
 
 
-LadderCompetitie.create(user: u8, u_arrows_shot: 6, u_five: 1, u_four: 0, u_three: 5, u_two: 0, u_one: 0, shot_at: Date.current,
-                shot_against: u9, sa_arrows_shot: 6, sa_five: 0, sa_four: 0, sa_three: 6, sa_two: 0, sa_one: 0)
-
-LadderCompetitie.create(user: u8, u_arrows_shot: 10, u_five: 4, u_four: 0, u_three: 1, u_two: 4, u_one: 1, shot_at: Date.current,
-                shot_against: u5, sa_arrows_shot: 12, sa_five: 3, sa_four: 1, sa_three: 2, sa_two: 6, sa_one: 0)
-
-LadderCompetitie.create(user: u5, u_arrows_shot: 12, u_five: 4, u_four: 1, u_three: 2, u_two: 1, u_one: 3, shot_at: Date.current,
-                shot_against: u3, sa_arrows_shot: 10, sa_five: 3, sa_four: 1, sa_three: 2, sa_two: 3, sa_one: 1)
-
-LadderCompetitie.create(user: u5, u_arrows_shot: 10, u_five: 2, u_four: 2, u_three: 2, u_two: 2, u_one: 2, shot_at: Date.current,
-                shot_against: u1, sa_arrows_shot: 12, sa_five: 1, sa_four: 3, sa_three: 7, sa_two: 1, sa_one: 0)
+# LadderCompetitie.create(user: u8, u_arrows_shot: 6, u_five: 1, u_four: 0, u_three: 5, u_two: 0, u_one: 0, shot_at: Date.current,
+#                 shot_against: u9, sa_arrows_shot: 6, sa_five: 0, sa_four: 0, sa_three: 6, sa_two: 0, sa_one: 0)
+#
+# LadderCompetitie.create(user: u8, u_arrows_shot: 10, u_five: 4, u_four: 0, u_three: 1, u_two: 4, u_one: 1, shot_at: Date.current,
+#                 shot_against: u5, sa_arrows_shot: 12, sa_five: 3, sa_four: 1, sa_three: 2, sa_two: 6, sa_one: 0)
+#
+# LadderCompetitie.create(user: u5, u_arrows_shot: 12, u_five: 4, u_four: 1, u_three: 2, u_two: 1, u_one: 3, shot_at: Date.current,
+#                 shot_against: u3, sa_arrows_shot: 10, sa_five: 3, sa_four: 1, sa_three: 2, sa_two: 3, sa_one: 1)
+#
+# LadderCompetitie.create(user: u5, u_arrows_shot: 10, u_five: 2, u_four: 2, u_three: 2, u_two: 2, u_one: 2, shot_at: Date.current,
+#                 shot_against: u1, sa_arrows_shot: 12, sa_five: 1, sa_four: 3, sa_three: 7, sa_two: 1, sa_one: 0)
 
 
 DefaultText.create(title: 'Horsebackarchers of Holland', page: 'index',
