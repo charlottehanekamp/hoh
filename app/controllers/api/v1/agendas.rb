@@ -7,7 +7,7 @@ module API
       resource :agendas do
         desc 'Show all agenda items'
         paginate
-        get do
+        get 'items' do
           present Agenda.order('start_at desc').limit(10), with: AgendaEntity
         end
 
