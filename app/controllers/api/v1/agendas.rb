@@ -10,6 +10,11 @@ module API
         get do
           present Agenda.order('start_at desc').limit(10), with: AgendaEntity
         end
+
+        desc 'Check if agenda mailer workd'
+        get 'mailer' do
+             AgendaMailer.agenda_email.deliver
+        end
       end
     end
   end
