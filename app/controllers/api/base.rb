@@ -5,6 +5,11 @@ module API
 
     mount API::V1::Root
 
+    add_swagger_documentation(
+         base_path: "/api",
+         hide_documentation_path: true
+    )
+
     # This endpoint is used to keep the application alive and as a check if it's still running.
     get :ping do {time: Time.now} end
   end

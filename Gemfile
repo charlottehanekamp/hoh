@@ -12,6 +12,7 @@ gem 'railties', '~> 4.2', '>= 4.2.10'
 
 gem 'pg', '0.20'
 gem 'rails-i18n'
+gem 'sendgrid-ruby'
 
 ## BACKOFFICE
 # gem 'activeadmin', github: 'activeadmin'
