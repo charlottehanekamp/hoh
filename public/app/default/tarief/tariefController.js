@@ -1,5 +1,5 @@
 angular.module('hoh', [])
-.controller('NieuwsCtrl', ['$scope', '$http', function($scope, $http){
+.controller('TariefCtrl', ['$scope', '$http', function($scope, $http){
   $http.get("/v1/rates.json")
     .success(function(data, status) {
         if(status == 200){
