@@ -26,8 +26,16 @@ default: &default
   port: 5432
 
 development:
-  <<: *default
-  database: hoh_development
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+  host: ec2-50-16-185-9.compute-1.amazonaws.com
+  username: btpphcicrjhzyu
+  password: eee084e41df773f99ad97b9eda7c2409d0f94ba6848210a51d901b9551079fa2
+  port: 5432
+  database: dee9ln7fmf7bvd
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
