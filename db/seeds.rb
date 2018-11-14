@@ -27,39 +27,7 @@ u3 = User.create!(email:'janneke@test.nl', password: 'password', password_confir
       Here it goes: I sped. I followed too closely. I ran a stop sign. I almost hit a Chevy. I sped some more. I failed to yield at a crosswalk. I changed lanes at an intersection. I changed lanes without signaling while running a red light and SPEEDING!
       Nothing! Because if I take it to small claims court, it will just drain eight hours out of my life and you probably wont show up and even if I got the judgment youd just stiff me anyway; so what I am going to do is piss and moan like an impotent jerk, and then '
 )
-u4 = User.create!(email:'jose@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Jose', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Jose.jpg')),
-    content:
-      'Mijn naam is José en ik ben 30 jaar.
-      Ik rijd al sinds mijn 9e paard en ben ook gediplomeerd instructrice.
-      In het verleden heb ik vooral jonge paarden gereden en mij gericht op de dressuur/springsport.
-      Ik heb ook een eigen paardje; Flint.
-      Het is een KWPN-ruin van nu 5 jaar.
-      Nadat hij vorig jaar een blessure heeft gehad ben ik eens rond gaan kijken wat ik anders met hem kon doen en toen op Horsebackarchery gestuit.
-      Ik vind de sport echt super leuk! Omdat je de controle te paard soms even moet laten gaan leer je beter naar je paard te luisteren en te communiceren.
-      En de groep helpt elkaar om te verbeteren.
-      Daarbij is het ook erg gezellig.
-      Ook het paard vind het leuk, voor ik de gang in ga wordt hij al ongeduldig en galoppeert snel aan wanneer dit mag.
-      Ik hoop dat deze sport nog flink zal groeien in Nederland en ik kan het dan ook iedereen aanbevelen!'
-)
-u5 = User.create!(email:'arno@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Arno', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Arno.jpg')),
-    content:
-      'Ik ben Arno Hendriks, 32 jaar en heb 2 paarden.
-      De merrie Vanilla, hartstikke geschikt voor boogschieten te paard, maar helaas met pensioen,
-      en de ruin Volare, door zijn pit iets minder geschikt maar wel leuker.
-      Steeds buitenritjes maken wordt na een tijd een beetje saai, maar de meeste paardensporten leken mij vooral veel gedoe en weinig plezier.
-      Nadat ik een spel had gespeeld waarin mijn leger werd afgeslacht door boogschutters te paard raakte ik geïnteresseerd in de sport.
-      Ik ben begonnen door op het internet filmpjes te kijken en dat uit te proberen met mijn paard Volare.
-      Na veel vallen en opstaan (het niet lukken om pijlen te nokken) ben ik andere mensen gaan zoeken die dit ook deden.
-      Ik vond de Horsebackarchers of Holland waar ik hartelijk werd ontvangen en inmiddels kom ik er zo\'n twee jaar met veel plezier.
-      Het is een hele rit vanuit Kaatsheuvel, maar ik heb het er graag voor over.
-      Het is een hecht clubje met totaal verschillende mensen die elkaar mooi aanvullen.
-      Ik heb er ontzettend veel geleerd en heb er zelfs mijn vriendin José ontmoet.'
-)
-u6 = User.create!(email:'kevin@test.nl', password: 'password', password_confirmation: 'password',
+u4 = User.create!(email:'kevin@test.nl', password: 'password', password_confirmation: 'password',
     first_name:'Kevin', user_type: 0,
     avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'kevin.jpg')),
     content:
@@ -68,39 +36,11 @@ u6 = User.create!(email:'kevin@test.nl', password: 'password', password_confirma
       Mijn team is een gezellige groep en ik word ook erg geholpen door iedereen.
       Mijn hobby’s zijn: scouting, buitenspelen en knutselen en boogschieten.'
 )
-u7 = User.create!(email:'tamara@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Tamara', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Tamara.jpg')),
+u5 = User.create!(email:'dorit@test.nl', password: 'password', password_confirmation: 'password',
+    first_name:'Dorit', user_type: 1,
     content:
-      'Hoi allemaal ik ben tamara ben 30 jaar en ik doe sinds het nemethy weekend september 2013 aan boogschieten te paard.
-      Waarom boogschieten te paard.
-      Ik heb zelf 2 tinkers, bonita en mistie zijn geen paarden om alleen maar sport mee te rijden.
-      En zelf vind ik dat ook niet leuk.
-      Via een vriendin kwam ik in aanraking met de horsebackarhers of Holland.
-      Het is altijd gezellig en we zijn een hechte groep vrienden.
-      Ook zijn we al 2 jaar achter elkaar naar Hongarije geweest met een groep.
-      Daar heb ik echt heel veel geleerd en is een super leuke ervaring.
-      Ik hoop dat ik nog lang kan genieten van deze sport en dat het steeds meer gaat groeien in Nederland.
-      Ik hoop jullie te zien bij 1 van de trainingen.
-
-      Gr tamara.'
+     'Ik ben Dorit Uebachs, 45 jaar oud en sinds het begin van de Horsebackarchers of Holland erbij. Ik schiet al sinds 10 jaar boog en van begin aan leek me dat in verbinding met mijn andere hobby, het paardrijden, een droom. Ik ben via een handboogforum op internet met Claire in contact gekomen. Op dat moment organiseerde zij nog Bajutsu trainingen. Een Japanse vechtkunst te paard. Maar behalve de boog werd daar ook met speer, zwaard en grepen gewerkt en ofschoon ik er voor het boogschieten ben gekomen is dat er in die (korte) tijd nooit van gekomen. Omdat het met Bajutsu van alles een beetje is en er niet de tijd en ruimte was om alle onderdelen goed te trainen besloot Claire toen zich puur op het boogschieten te paard te richten. Enthousiast deed ik aan alle trainingen mee en snel begonnen wij ook an clinics in Duitsland en Luxembourg deel te nemen. 2012 gingen wij voor het eerst met een paar mensen naar een week trainingskamp in Hongarije waar wij in korte tijd ongelooflijk veel hebben geleerd. Ook halen wij af en toe mensen naar onze lessen, die ons weer een andere kijk op de dingen geven. Zo ben ik op de duimringtechniek gestoten en op het moment de enige bij ons die met deze techniek schiet. Dat is het leuke aan deze sport: Iedereen kan zijn eigen weg vinden en dat doen wat het beste bij hem past. Sinds 2 jaar heb ik een eigen paard en, zo paradox als het klinkt, schiet ik veel minder. Helaas is er de tijd en met name het geld niet meer om naar trainingen of wedstrijden in het buitenland te gaan. Maar nog steeds doe ik mee met de trainingen in Rijpwetering en probeer als lid van het bestuur mijn (met name creatieve) bijdrage aan onze geweldige club te leveren.'
 )
-u8 = User.create!(email:'yssette@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Yssette', user_type: 0,
-    avatar: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'Yssette.jpg')),
-    content:
-      'Mijn naam is Yssette.
-      Ik ben ooit begonnen als eerste onofficiele jeugdlid van de horsebackarchers.
-      Ik draai al mee sinds 6 juni 2010 en ben nooit meer gestopt.
-      Ik vind het boogschieten te paard leuk, omdat ik een teamgevoel krijg.
-      Het loslaten en vertrouwen op het paard is daar ook onderdeel van en kan soms heel spannend zijn.
-      Als groep zijn wij heel hecht.
-      We trainen vaak samen en iedereen kent elkaars kritiekpuntjes.
-      We hebben een hechte, vaste kern waar iedereen welkom is!
-      Ik hoop dat de sport door zal groeien en dat we nog veel meer mensen mogen verwelkomen in onze horsebackarcherfamilie :)'
-)
-u9 = User.create!(email:'dorit@test.nl', password: 'password', password_confirmation: 'password',
-    first_name:'Dorit', user_type: 0)
 
 
 Blog.create(title:'1',
@@ -140,9 +80,21 @@ Blog.create(title:'5',
         I\'m an angel. I kill firstborns while their mamas watch. I turn cities into salt. I even, when I feel like it, rip the souls from little girls, and from now till kingdom come, the only thing you can count on in your existence is never understanding why.
         She\'s some bunny isn\'t she? Great to see her again, It\'s been years, but,I never forget a face... especially, if I\'ve sat on it. I hope you have the fun with her that I do... I love that little mole on her butt don\'t you? and how about that sensitive left nipple... and what mouth action! I thought jaws only moved that fast in water! You know Lou-Anne, likes to make a guy happy. More than you do for her Marco! But then, you have a problem don\'t you? It\'s called... LIMP DICK. And Lou-Anne is losing patience. Yeah me and Lou- Anne, Lou- Anne and me, we just pump away... singing that song we love... feelings!... nothing more than feelings!')
 
-Agenda.create(title: 'Training', start_at: '2016-03-13 08:30:00.000000', end_at: '2016-03-13 15:00:00.000000', content: 'Zondag is er een training te voet en te paard. Verzamelen 9:30. 10:00 beginnen')
+Agenda.create(title: 'Training', start_at: '2018-11-18 09:30:00.000000', end_at: '2018-11-18 12:00:00.000000', content: 'Zondag is er een training te voet en te paard. Verzamelen 9:30. 10:00 beginnen')
 
-LadderCompetitie.create(user: u1, shot_against: u2, one: 1, two: 2, three: 3, four: 4, five: 5, arrows_shot: 20)
+
+# LadderCompetitie.create(user: u8, u_arrows_shot: 6, u_five: 1, u_four: 0, u_three: 5, u_two: 0, u_one: 0, shot_at: Date.current,
+#                 shot_against: u9, sa_arrows_shot: 6, sa_five: 0, sa_four: 0, sa_three: 6, sa_two: 0, sa_one: 0)
+#
+# LadderCompetitie.create(user: u8, u_arrows_shot: 10, u_five: 4, u_four: 0, u_three: 1, u_two: 4, u_one: 1, shot_at: Date.current,
+#                 shot_against: u5, sa_arrows_shot: 12, sa_five: 3, sa_four: 1, sa_three: 2, sa_two: 6, sa_one: 0)
+#
+# LadderCompetitie.create(user: u5, u_arrows_shot: 12, u_five: 4, u_four: 1, u_three: 2, u_two: 1, u_one: 3, shot_at: Date.current,
+#                 shot_against: u3, sa_arrows_shot: 10, sa_five: 3, sa_four: 1, sa_three: 2, sa_two: 3, sa_one: 1)
+#
+# LadderCompetitie.create(user: u5, u_arrows_shot: 10, u_five: 2, u_four: 2, u_three: 2, u_two: 2, u_one: 2, shot_at: Date.current,
+#                 shot_against: u1, sa_arrows_shot: 12, sa_five: 1, sa_four: 3, sa_three: 7, sa_two: 1, sa_one: 0)
+
 
 DefaultText.create(title: 'Horsebackarchers of Holland', page: 'index',
     image: Rack::Test::UploadedFile.new(File.join(Rails.root, 'public', 'assets', 'img', 'hoh_logo.png')),
@@ -157,3 +109,9 @@ DefaultText.create(title: 'Horsebackarchers of Holland', page: 'index',
         Het is heel belangrijk om eerst de techniek te voet te beheersen die je nodig hebt voor het schieten vanaf het paard. Op het moment dat je op het paard zit, moet je zoveel dingen tegelijk doen, dat het goed is om zowel het boogschieten als het paardrijden bijna automatisch te kunnen uitvoeren. Deze beide activiteiten moeten dus in je spiergeheugen zitten. Dat betekent dat het een groot voordeel is wanneer je kunt paardrijden en boogschieten, maar het is zeker geen must. Niet-ruiters kunnen aan de hand worden begeleid in stap, of ze gaan aan de voorgenoemde longe, waardoor ze zich nog niet druk hoeven te maken over richting of tempo. Niet-schutters krijgen eerst training te voet, zodat er veilig vanaf het paard geschoten kan worden, alle trainingen beginnen met een voetgedeelte. De schiettechniek richt zich op het snel en blind nokken (pijl op de pees van de boog krijgen) en hier doen wij vele oefeningen voor.',
     content_four:'
         In onze zoektocht naar verbetering zijn we een samenwerking aangegaan met de Nemethy Horseback Archery Academy in Hongarije. Zij hebben getraind onder Lajos Kassai en hun systeem lijkt daarop. Jaarlijks halen we Christoph Nemethy, tweevoudig Europees kampioen, een weekend naar Nederland voor een intensieve training en ook gaan we met een groep elk jaar naar Hongarije, voor een week lang training. Daarnaast zijn er kontakten met de International Horseback Archery Alliance. Deze heeft een mooi gradensysteem opgezet en houdt postal competities, waaraan we zoveel mogelijk proberen deel te nemen. Verdere internationale contacten zijn er met de World Horseback Archery Foundation, de Steppenreiter, de British Horseback Archery Association, Boureider Lëtzebuerg en nog vele andere verenigingen.')
+
+Rate.create(title: 'Te Voet 13x', description: '', price: '60', expires_in: 24)
+Rate.create(title: 'Te Voet 6x', description: '', price: '30', expires_in: 12)
+Rate.create(title: 'Te Voet 1x', description: '', price: '7.50', expires_in: 0)
+Rate.create(title: 'Te Paard 1x', description: '', price: '40', expires_in: 0)
+Rate.create(title: 'Materiaal', description: 'halve dag', price: '2.5', expires_in: 0)

@@ -1,14 +1,21 @@
 source 'https://rubygems.org'
 
 ## CORE
-gem 'rails', '4.2.3'
-gem 'bundler'
+# gem 'bundler'
+# gem 'rails', '~> 4.2.3'
+gem 'rails', '~> 4.2', '>= 4.2.10'
+gem 'bundler', '~> 1.17', '>= 1.17.1'
+gem 'actionpack', '~> 4.2', '>= 4.2.10'
+gem 'activemodel', '~> 4.2', '>= 4.2.10'
+gem 'activerecord', '~> 4.2', '>= 4.2.10'
+gem 'railties', '~> 4.2', '>= 4.2.10'
 
-gem 'pg'
+gem 'pg', '0.20'
 gem 'rails-i18n'
 
 ## BACKOFFICE
-gem 'activeadmin', github: 'activeadmin'
+# gem 'activeadmin', github: 'activeadmin'
+gem 'activeadmin', '~> 1.3', '>= 1.3.1'
 gem 'activeadmin_hstore_editor'
 gem 'active_admin_theme'
 gem 'select2-rails'
@@ -24,7 +31,8 @@ gem 'devise'
 gem 'cancancan'
 gem 'grape'
 gem 'grape-swagger'
-gem 'grape-kaminari'
+# gem 'grape-kaminari'
+gem 'grape-kaminari', :github => 'joshmn/grape-kaminari'
 gem 'grape-route-helpers'
 gem 'grape-entity'
 gem 'rack-cors', :require => 'rack/cors'
@@ -52,7 +60,8 @@ end
 group :development, :test do
   gem 'airborne'
   gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  # gem 'factory_girl_rails'
+  gem "factory_bot_rails"
   gem 'database_cleaner'
   gem 'byebug'
 end
