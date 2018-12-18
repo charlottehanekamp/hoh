@@ -8,13 +8,13 @@ module API
         desc 'Show all agenda items'
         paginate
         get 'items' do
-          present Agenda.order('start_at desc').limit(10), with: AgendaEntity
+          datetime = DateTime.now
+          present Agenda.order('start_at asc').where("start_at >= ?", datetime.to_formatted_s(:iso8601)).limit(5), with: AgendaEntity
         end
-
-        desc 'Check if agenda mailer workd'
-        get 'mailer' do
-             AgendaMailer.agenda_email.deliver
-        end
+        # desc 'Check if agenda mailer worked'
+        # get 'mailer' do
+        #      AgendaMailer.agenda_email.deliver
+        # end
       end
     end
   end

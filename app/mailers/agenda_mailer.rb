@@ -5,8 +5,7 @@ class AgendaMailer < ApplicationMailer
           # User.find_each do |user|
                # @email = @user.email
                @email = 'charlie.5991@gmail.com'
-               mail(:to => @email,
-                    :subject => 'Agenda this month')#add an date and maybe some more info
+               mail(:to => @email, :subject => 'Agenda this month')#add an date and maybe some more info
           # end
      end
 end
