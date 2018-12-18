@@ -1,0 +1,13 @@
+TODO: Create a dropdown for members and board
+TODO: Create a dropdown for Locations
+TODO: Create a dropdown info with
+     - Matarialen
+     - Trainingen
+     - Tarieven
+
+TODO: Automatic adjust of images on blog
+TODO: Add show only from today. For Agenda
+TODO: Only show items Date before today. For Blog
+
+TODO: Remove Login page
+TODO: Remove LadderRanking page
