@@ -39,5 +39,6 @@ angular.module('hoh', ['ngCookies'])
                     .error(function(data, status, headers, config) {
                          $scope.messages_error = 'There was a network error. Try again later.';
                     });
+
           // }
      }]);

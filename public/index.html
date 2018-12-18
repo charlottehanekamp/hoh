@@ -15,7 +15,7 @@
      <script language="javascript" src="/assets/js/highlight.js"></script>
 
      <link rel="shortcut icon" type="image/jpg" href="/assets/img/watermerk.jpg" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
      <link rel="stylesheet" href="/assets/css/style.css">
      <link rel="stylesheet" href="/assets/css/index.css">
 
@@ -25,12 +25,59 @@
 <body ng-app='hoh' ng-controller="MainCtrl">
 
      <ng-include src="'assets/navbar.htm'"> </ng-include>
-     <!-- <div ng-include="'../../../assets/navbar.htm'"></div> -->
+     <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <div class="container">
+               <a class="navbar-brand" href="/index.html">HorsebackArchery</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
 
-
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="/app/default/nieuws/nieuwsView.html">Nieuws</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="/app/default/agenda/agendaView.html">Agenda</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="/app/default/nieuws/nieuwsView.html">Nieuws</a>
+                         </li>
+                         <li class="nav-item">
+                         </li>
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Info
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <a class="dropdown-item" href="#">Trainingen</a>
+                                   <a class="dropdown-item" href="#">Tarieven</a>
+                                   <div class="dropdown-divider"></div>
+                                   <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                         </li>
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Locaties
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <a class="dropdown-item" href="#">Ripse Ruiters</a>
+                                   <a class="dropdown-item" href="#">Manege Geuzeneiland</a>
+                                   <div class="dropdown-divider"></div>
+                                   <a class="dropdown-item" href="/app/default/contact/contactView.html">Contact</a>
+                              </div>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav> -->
      <div class="container">
+
           <div class="starter-template">
-               <h1 class="page-header">{{formData.titles}}</h1>
+               <h1 class="page-header">{{formData.title}}</h1>
                <div id="messages_error" class="alert alert-warning" data-ng-show="messages_error" data-ng-bind="messages_error"></div>
                <div class="home">
                     <center><img id="image" class="front_img" src="{{formData.image.url}}"></img>
@@ -46,10 +93,14 @@
           </div>
      </div>
 
-     <!-- <ng-include src="'/assets/footer.htm'"> </ng-include> -->
+     <ng-include src="'assets/footer.htm'"> </ng-include>
 
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 
 
 </body>

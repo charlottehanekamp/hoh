@@ -1,7 +1,7 @@
 html {
   position: relative;
   min-height: 100%;
-
+     font-size: 14px;
 }
 body {
   background: #000000 url("../img/Naamloos.png") no-repeat center fixed;
@@ -9,13 +9,22 @@ body {
   margin-bottom: 60px;
   padding-top: 50px;
 }
-.navbar .navbar-header>.navbar-brand{
-  color: #FF7F00;
+.navbar{
+     background-color : #222;
 }
-.navbar .navbar-nav>.active>a{
+.navbar .navbar-brand {
+     font-size: 18px;
+     color: #FF7F00;
+}
+.navbar .nav-item .nav-link{
+     font-size: 14px;
+     padding: 5px 0px 5px 25px;
+}
+
+.navbar .navbar-brand>.active>a{
   background-color : #FF7F00;
 }
-.navbar .navbar-nav>.hover>a{
+.navbar .navbar-brand>.hover>a{
   background-color : #FF7F00;
 }
 .starter-template {
@@ -36,6 +45,20 @@ body {
      border-radius: 25px;
      display: inline-block;
 }
+
+.home #title {
+     font-size: 2rem;
+}
+
+.home #timestamp {
+     font-size: 0.9rem;
+     font-style: italic;
+}
+
+.home #body {
+     font-size: 1rem;
+}
+
 
 .footer {
   position: fixed;

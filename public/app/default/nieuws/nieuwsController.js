@@ -7,7 +7,7 @@ angular.module('hoh', [])
                     } else {
                          $scope.messages_error = 'Oops, we received your request, but there was an error processing it.';
                     }
-                    $scope.test = "successs";
+                    // $scope.test = "successs";
                     $scope.formData = {};
                     $scope.formData.items = data;
 
