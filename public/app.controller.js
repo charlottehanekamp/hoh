@@ -26,20 +26,16 @@ app.config(function($routeProvider) {
                controller: 'TrainingController'
           })
           .when("/materialen", {
-               templateUrl: "components/materialen/materialen.view.htm",
-               controller: 'MaterialenController'
+               templateUrl: "components/materiaal/materiaal.view.htm",
+               controller: 'MateriaalController'
           })
           .when("/tarief", {
                templateUrl: "components/tarief/tarief.view.htm",
                controller: 'TariefController'
           })
-          .when("/ripse", {
-               templateUrl: "components/ripse/ripse.view.htm",
-               controller: 'RipseController'
-          })
-          .when("/geuzen", {
-               templateUrl: "components/geuzen/geuzen.view.htm",
-               controller: 'GeuzenController'
+          .when("/locaties", {
+               templateUrl: "components/locaties/locaties.view.htm",
+               controller: 'LocatiesController'
           })
           .when("/contact", {
                templateUrl: "components/contact/contact.view.htm",

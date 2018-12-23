@@ -5,10 +5,10 @@
           <div class="home" ng-repeat="item in formData.items">
                <h1 id="title">{{item.title}}</h1>
                <p id="timestamp">{{item.created_at | date:'MMM d, y'}}</p>
-               <p id="body">{{item.body}}</p>
-               <div ng-if="item.image.url">
-                    <img id="image" src="{{item.image.url}}">
-               </div>
+               <p id="content">{{item.body}}</p>
+               <!-- <div ng-if="item.image.url"> -->
+               <img ng-hide="item.image.url == null" id="image" src="{{item.image.url}}">
+               <!-- </div> -->
           </div>
      </div>
 </div>

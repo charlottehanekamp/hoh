@@ -3,7 +3,8 @@ app.controller('HomeController', ['$scope', '$http', function($scope, $http) {
           .then(function onSuccess(response) {
                // Handle success
                if(response.status ==  200){
-                    $scope.formData = response.data;
+                    $scope.formData = {}
+                    $scope.formData.items = response.data;
                } else {
                     var status = response.status;
                     var statusText = response.statusText;

@@ -4703,3 +4703,43 @@
 [2018-12-22 10:00:45 +0100 charlottes-MBP (2188)] INFO : Doing deferred dependency-detection before Rack startup
 [2018-12-22 10:01:16 +0100 charlottes-MBP (2188)] ERROR : Invalid license key, please contact support@newrelic.com
 [2018-12-22 10:01:16 +0100 charlottes-MBP (2188)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Environment: development
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : No known dispatcher detected.
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Application: development
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Installing ActiveJob instrumentation
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Installing ActiveRecord 4 instrumentation
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Installing New Relic supported Grape instrumentation
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Installing Net instrumentation
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-12-23 00:25:46 +0100 charlottes-MBP (5654)] INFO : Installing Rails 4 Controller instrumentation
+[2018-12-23 00:25:47 +0100 charlottes-MBP (5654)] INFO : Installing Rails 4 view instrumentation
+[2018-12-23 00:25:47 +0100 charlottes-MBP (5654)] INFO : Finished instrumentation
+[2018-12-23 00:32:29 +0100 charlottes-MBP (2188)] INFO : Starting Agent shutdown
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Environment: development
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : No known dispatcher detected.
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Application: development
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing ActiveJob instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing ActiveRecord 4 instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing New Relic supported Grape instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing Net instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing Rails 4 Controller instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Installing Rails 4 view instrumentation
+[2018-12-23 00:35:04 +0100 charlottes-MBP (5727)] INFO : Finished instrumentation
+[2018-12-23 00:35:07 +0100 charlottes-MBP (5727)] INFO : Doing deferred dependency-detection before Rack startup
+[2018-12-23 00:35:25 +0100 charlottes-MBP (5727)] ERROR : Invalid license key, please contact support@newrelic.com
+[2018-12-23 00:35:25 +0100 charlottes-MBP (5727)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.

@@ -6,7 +6,7 @@
           <div class="home" ng-repeat="item in formData.items">
                <h3 id="name">{{item.first_name+" " + item.last_name}}</h3>
                <p id="member_since">Lid sinds: {{item.member_since}}</p>
-               <img id="avatar" src="{{item.avatar.normal.url}}">
+               <img ng-hide="item.image.url == null" id="avatar" src="{{item.avatar.normal.url}}">
                <p id="content">{{item.content}}</p>
           </div>
      </div>

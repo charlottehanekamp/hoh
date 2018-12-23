@@ -1,5 +1,5 @@
 class DefaultText < ActiveRecord::Base
-  mount_uploader :image, PhotoUploader 
-  enum page: [:index, :todo, :contact]
-  validates :page, uniqueness: true
+  mount_uploader :image, PhotoUploader
+  enum page: [:index, :materiaal, :contact, :training, :locaties]
+  # validates :page, uniqueness: true
 end
