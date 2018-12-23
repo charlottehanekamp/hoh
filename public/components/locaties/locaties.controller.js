@@ -5,7 +5,6 @@ app.controller('LocatiesController', ['$scope', '$http', function($scope, $http)
                if(response.status ==  200){
                     $scope.formData = {}
                     $scope.formData.items = response.data;
-                    console.log($scope.formData.items);
                } else {
                     var status = response.status;
                     var statusText = response.statusText;

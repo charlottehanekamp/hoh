@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ["ngRoute", "ui.bootstrap"]);
+var app = angular.module('myApp', ["ngRoute"]);
 app.config(function($routeProvider) {
      $routeProvider
           .when("/home", {
@@ -51,6 +51,6 @@ app.config(function($routeProvider) {
                templateUrl: '500.htm',
           })
           .otherwise({
-               redirectTo: '/'
+               redirectTo: '/home'
           });
 });
