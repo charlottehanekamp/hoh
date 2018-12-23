@@ -45,6 +45,7 @@ gem 'whenever', :require => false
 gem 'geocoder'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'sendgrid-ruby'
 
 group :assets do
   gem 'therubyracer'
