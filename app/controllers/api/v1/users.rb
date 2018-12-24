@@ -31,7 +31,7 @@ module API
         desc 'Show specific user profile'
         get do
           present current_user, with: UserEntity
-          AgendaMailer.monthly_mail(User.all).deliver
+          AgendaMailer.monthly_mail(current_user.email).deliver
         end
 
         params do
