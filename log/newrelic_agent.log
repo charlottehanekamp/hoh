@@ -4783,3 +4783,21 @@
 [2018-12-23 11:52:06 +0100 charlottes-MBP (9472)] ERROR : Invalid license key, please contact support@newrelic.com
 [2018-12-23 11:52:06 +0100 charlottes-MBP (9472)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [2018-12-23 22:57:25 +0100 charlottes-MBP (9472)] INFO : Starting Agent shutdown
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Environment: development
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : No known dispatcher detected.
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Application: development
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing ActiveJob instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing ActiveRecord 4 instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing New Relic supported Grape instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing Net instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing deferred Rack::Builder instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing Rack::Builder middleware instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing Rails 3+ middleware instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing Rails 4 Controller instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Installing Rails 4 view instrumentation
+[2018-12-23 23:24:45 +0100 charlottes-MacBook-Pro.local (11182)] INFO : Finished instrumentation
