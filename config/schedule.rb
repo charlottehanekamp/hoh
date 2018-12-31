@@ -26,7 +26,7 @@ every 1.day, :at => '1:30 am' do
 end
 
 every 2.minutes do
-  rake "email_agenda"
+  rake "monthly_mail"
 end
 
 # every 2.minutes do
