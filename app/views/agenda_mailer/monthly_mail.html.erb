@@ -24,7 +24,7 @@
                     <% @nieuws_items.each do |n| %>
                          <tr>
                               <td><%= n.title %></td>
-                              <td><%= n.date %></td>
+                              <td><%= n.date.strftime("%d/%m/%Y") %></td>
                               <td><%= n.body %></td>
                          </tr>
                     <% end %>
@@ -45,8 +45,8 @@
                     <% @agenda_items.each do |a| %>
                          <tr>
                               <td><%= a.title %></td>
-                              <td><%= a.start_at %></td>
-                              <td><%= a.end_at %></td>
+                              <td><%=a.start_at.strftime("%H:%M:%S") %>, <%= a.start_at.strftime("%d/%m/%Y")%></td>
+                              <td><%=a.end_at.strftime("%H:%M:%S") %>, <%= a.end_at.strftime("%d/%m/%Y")%></td>
                               <td><%= a.content %></td>
                          </tr>
                     <% end %>

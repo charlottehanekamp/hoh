@@ -28,6 +28,24 @@ module API
             end
           end # current_user
 
+          def authenticate_admin!
+            error!('Unauthorized. Invalid or expired token.', 401) unless current_user_admin
+          end # authenticate!
+
+          def current_user_admin
+            # find token. Check if valid.
+            params[:token] ||= request.headers['X-Api-Token']
+            token = AccessKey.find_by_access_token( params[:token] )
+            if token && !token.expired?
+              @current_user = User.find(token.user_id)
+              if @current_user.user_type == 'bestuur'
+                   token.update_expiry
+              end
+            else
+              false
+            end
+          end # current_user
+
         end # helpers
       end # included
     end # Auth

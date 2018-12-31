@@ -61,12 +61,12 @@ ActiveRecord::Schema.define(version: 20181222232551) do
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
 
   create_table "agendas", force: :cascade do |t|
-    t.datetime "start_at"
-    t.datetime "end_at"
     t.text     "content"
     t.string   "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.datetime "end_at"
+    t.datetime "start_at"
   end
 
   create_table "blogs", force: :cascade do |t|
