@@ -7,4 +7,8 @@ class AgendaMailer < ApplicationMailer
      def monthly_mail(email)
           mail(:to => email, :subject => 'Agenda this month')
      end
+
+     def monthly_mail_test(email)
+          mail(:to => 'charlie.5991@gmail.com', :subject => 'Agenda this month')
+     end
 end

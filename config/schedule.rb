@@ -25,9 +25,9 @@ every 1.day, :at => '1:30 am' do
   rake "ranking_update"
 end
 
-every 2.minutes do
-  rake "monthly_mail"
-end
+#every 2.minutes do
+#  rake "monthly_mail"
+#end
 
 # every 2.minutes do
 #     runner "Agenda.monthly_update", :environment => 'development', :output => 'log/cron.log'
