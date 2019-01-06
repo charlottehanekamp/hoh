@@ -10,7 +10,11 @@ module API
         paginate
         get 'items' do
           datetime = DateTime.now
-          present Agenda.order('start_at asc').where("start_at >= ?", datetime.to_formatted_s(:iso8601)).limit(10), with: AgendaEntity
+          @agendas=[]
+          Location.all.each do |l|
+               @agendas.push(Agenda.order('start_at asc').where('location_id = ?', l.id).where("start_at >= ?", datetime.to_formatted_s(:iso8601)).select('title, content, start_at, end_at, location_id').limit(5))
+          end
+          @agendas
         end
 
 
@@ -29,10 +33,6 @@ module API
              end
              return status 204
         end
-        # desc 'Check if agenda mailer worked'
-        # get 'mailer' do
-        #      AgendaMailer.agenda_email.deliver
-        # end
       end
     end
   end

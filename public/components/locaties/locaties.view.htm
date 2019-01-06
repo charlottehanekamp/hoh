@@ -2,31 +2,31 @@
      <div class="starter-template">
           <h1 class="page-header">Locaties</h1>
           <div id="messages_error" class="alert alert-warning" data-ng-show="messages_error" data-ng-bind="messages_error"></div>
-          <div class="home" ng-repeat="item in formData.items">
-               <h4>{{item.title}}</h4>
-               <h5>{{item.subtitle}}</h5>
-               <div class="row">
-                    <div class="col" id="content">
-                         <p>{{item.content_one}}</p>
+          <div class="home row">
+               <div id="item" ng-repeat="item in formData.items">
+                    <div class="row">
+                         <div class="col-12">
+                              <h4>{{item.name}}</h4>
+                         </div>
+                         <div class="col-12">
+                              <h5>{{item.url}}</h5>
+                         </div>
                     </div>
-                    <div ng-hide="item.image.url == null" class="col-sm-3" id="autoSize">
-                         <center><img class="front_img" src="{{item.image.url}}"></img>
-                         </center>
+                    <div class="row">
+                         <div class="col-md" id="content">
+                              <p>{{item.content_one}}</p>
+                         </div>
+                         <div ng-hide="item.image.url == null" class="col-md-4" id="autoSize">
+                              <center><img class="front_img" src="{{item.image.url}}"></img>
+                              </center>
+                         </div>
+                         <hr>
                     </div>
-               </div>
-               <div class="row">
-                    <div class="col" id="content">
-                         <p>{{item.content_two}}</p>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col" id="content">
-                         <p>{{item.content_three}}</p>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col" id="content">
-                         <p>{{item.content_four}}</p>
+                    <div ng-hide="item.content_two == ''" class="row">
+                         <div class="col-md" id="content">
+                              <p>{{item.content_two}}</p>
+                         </div>
+                         <hr>
                     </div>
                </div>
 

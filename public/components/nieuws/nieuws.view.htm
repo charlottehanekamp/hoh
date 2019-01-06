@@ -5,9 +5,18 @@
           <div class="home" ng-repeat="item in formData.items">
                <h1 id="title">{{item.title}}</h1>
                <p id="timestamp">{{item.created_at | date:'MMM d, y'}}</p>
-               <p id="content">{{item.body}}</p>
+               <div class="row">
+                    <div class="col-md" id="content">
+                         <p id="content">{{item.body}}</p>
+                    </div>
+                    <div ng-hide="item.image.url == null" class="col-md-4" id="autoSize">
+                         <img ng-hide="item.image.url == null" id="image" src="{{item.image.url}}">
+                    </div>
+                    <hr>
+               </div>
+
                <!-- <div ng-if="item.image.url"> -->
-               <img ng-hide="item.image.url == null" id="image" src="{{item.image.url}}">
+
                <!-- </div> -->
           </div>
      </div>

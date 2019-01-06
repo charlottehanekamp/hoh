@@ -217,6 +217,15 @@
                		For clients that support media queries.
                		Nothing fancy.
                -------------------------------------------- */
+               .nieuw_img{
+                    width: 35%;
+                    float: left;
+                    clear:both;
+                    margin: 0 10px 0 0
+               }
+               .main_img{
+                    height: 300px;
+               }
                @media only screen and (max-width: 600px) {
 
                	a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
@@ -230,8 +239,8 @@
                }
           </style>
      </head>
-     <body bgcolor="#222" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
-          <table class="head-wrap" bgcolor="#222">
+     <body bgcolor="#222222" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+          <table class="head-wrap">
           	<tr>
           		<td></td>
           		<td class="container" bgcolor="#FF7F00">
@@ -239,7 +248,9 @@
           			<div class="content">
           			<table>
           				<tr>
-          					<td><img height="100px" src="http://development.hoh-archery.nl/uploads/default_text/image/1/hoh_logo.png" /></td>
+          					<td>
+                                        <%=image_tag('/uploads/default_text/image/1/hoh_logo.png', height: '100px') %>
+                                   </td>
           					<td align="right"><h3 class="collapse">Horsebackarchers Of Holland</h3></td>
           				</tr>
           			</table>
@@ -258,16 +269,18 @@
           				<table>
           					<tr>
           						<td>
-                                             <p><center><img height="300px" src="http://development.hoh-archery.nl/uploads/blog/image/7/DSCN2080.JPG"/></center></p><!-- /hero -->
-          							<h1>Beste, <%= @user.first_name %></h1>
+                                             <p><center>
+                                                  <%=image_tag(@nieuws_items[0].image.url, class: "main_img") %>
+                                             </center></p>
+          							<h1>Beste <%= @user.first_name %>,</h1>
           							<p class="lead">Hier is onze maandelijkse Nieuws en Agenda mail.<br>
                                              En bevat het laatste nieuws en de agenda voor de komende tijd.
 
-          							<!-- A Real Hero (and a real human being) -->
-
           							<!-- Callout Panel -->
           							<p class="callout">
-          								Om je aan te melden voor een van onze trainingen. Kunt u ons mailen of via whatsapp naar een van de bestuursleden een bericht sturen <a href="emailto:info@hoh-archery.nl">info@hoh-archery.nl</a>Do it Now! &raquo;</a>
+          								Om je aan te melden voor een van onze trainingen. Kunt u ons mailen of via whatsapp naar een van de bestuursleden een bericht sturen
+                                                  <a href="emailto:info@hoh-archery.nl">info@hoh-archery.nl
+                                                  <br>Do it Now! &raquo;</a>
           							</p><!-- /Callout Panel -->
                                              <h3>Nieuws</h3>
                                              <% @nieuws_items.each do |n| %>
@@ -276,7 +289,7 @@
                                                             <small><%= n.date.strftime("%d/%m/%Y") %></small>
                                                        </h4>
                                                        <p style="">
-                                                            <img style="width: 35%; float: left; clear:both; margin: 0 10px 0 0" src="<%= n.image.normal.url %>" onerror="this.onerror=null;this.src='http://development.hoh-archery.nl/uploads/blog/image/7/DSCN2080.JPG';"/>
+                                                            <%=image_tag(n.image.url, class: "nieuw_img") %>
                                                             <%= n.body %>
                                                        </p>
                                                   </div>
@@ -339,12 +352,12 @@
           				</table>
           			</div>
 
-
+          </table>
           <!-- FOOTER -->
           <table class="footer-wrap">
           	<tr>
           		<td></td>
-          		<td class="container">
+          		<td class="container" bgcolor="#FF7F00">
 
           				<!-- content -->
           				<div class="content">
@@ -369,7 +382,5 @@
           		<td></td>
           	</tr>
           </table><!-- /FOOTER -->
-
-
      </body>
 </html>

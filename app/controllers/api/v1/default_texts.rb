@@ -10,7 +10,7 @@ module API
           requires :page, type: String, desc: 'Which page does the text goes on?'
         end
         get do
-          present DefaultText.where("page = ?", DefaultText.pages[params[:page]]).order('created_at desc'), with: DefaultTextEntity
+          present DefaultText.where("page = ?", DefaultText.pages[params[:page]]).order(:orderOnPage), with: DefaultTextEntity
         end
       end
     end

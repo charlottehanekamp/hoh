@@ -1,5 +1,5 @@
 ActiveAdmin.register DefaultText do
-  permit_params :title, :content_one, :content_two, :content_three, :content_four, :page, :image, :subtitle
+  permit_params :title, :content_one, :content_two, :content_three, :content_four, :page, :image, :subtitle, :orderOnPage
   menu parent: "Extra"
   # menu priority: 10
 
@@ -12,6 +12,7 @@ ActiveAdmin.register DefaultText do
     column :content_three
     column :content_four
     column :page
+    column :orderOnPage
     column :image
     actions
   end
@@ -25,6 +26,7 @@ ActiveAdmin.register DefaultText do
       f.input :content_three
       f.input :content_four
       f.input :page, as: :select, collection: DefaultText.pages.keys
+      f.input :orderOnPage
       f.input :image
     end
     f.actions
@@ -39,6 +41,7 @@ ActiveAdmin.register DefaultText do
       row :content_three
       row :content_four
       row :page
+      row :orderOnPage
       row :image
     end
   end

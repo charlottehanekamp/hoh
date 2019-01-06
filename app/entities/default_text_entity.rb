@@ -7,4 +7,5 @@ class DefaultTextEntity < Grape::Entity
   expose :content_four
   expose :page
   expose :image
+  expose :orderOnPage
 end

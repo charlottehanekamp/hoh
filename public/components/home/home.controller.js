@@ -1,4 +1,4 @@
-app.controller('HomeController', ['$scope', '$http', function($scope, $http) {
+app.controller('HomeController', ['$scope', '$http', function($scope, $http, $log) {
      $http.get("/v1/default_text.json?page=index")
           .then(function onSuccess(response) {
                // Handle success

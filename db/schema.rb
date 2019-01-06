@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181222232551) do
+ActiveRecord::Schema.define(version: 20190106111705) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -63,10 +63,11 @@ ActiveRecord::Schema.define(version: 20181222232551) do
   create_table "agendas", force: :cascade do |t|
     t.text     "content"
     t.string   "title"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.datetime "end_at"
     t.datetime "start_at"
+    t.integer  "location_id"
   end
 
   create_table "blogs", force: :cascade do |t|
@@ -90,6 +91,7 @@ ActiveRecord::Schema.define(version: 20181222232551) do
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.string   "subtitle"
+    t.integer  "orderOnPage"
   end
 
   create_table "ladder_competities", force: :cascade do |t|
@@ -132,6 +134,17 @@ ActiveRecord::Schema.define(version: 20181222232551) do
   end
 
   add_index "ladder_rankings", ["user_id"], name: "index_ladder_rankings_on_user_id", using: :btree
+
+  create_table "locations", force: :cascade do |t|
+    t.string   "name"
+    t.text     "content_one"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "orderOnPage"
+    t.string   "image"
+    t.string   "url"
+    t.text     "content_two"
+  end
 
   create_table "rates", force: :cascade do |t|
     t.string   "title"

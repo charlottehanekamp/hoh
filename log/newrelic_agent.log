@@ -4884,3 +4884,137 @@
 [2018-12-31 20:43:02 +0100 charlottes-MacBook-Pro.local (48531)] INFO : Installing Rails 4 Controller instrumentation
 [2018-12-31 20:43:02 +0100 charlottes-MacBook-Pro.local (48531)] INFO : Installing Rails 4 view instrumentation
 [2018-12-31 20:43:02 +0100 charlottes-MacBook-Pro.local (48531)] INFO : Finished instrumentation
+[2019-01-02 18:15:40 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2019-01-02 18:15:40 +0100 charlottes-MacBook-Pro.local (67010)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-01-02 18:15:40 +0100 charlottes-MacBook-Pro.local (67010)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2019-01-02 18:15:40 +0100 charlottes-MacBook-Pro.local (67010)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2019-01-02 18:15:40 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Environment: development
+[2019-01-02 18:15:40 +0100 charlottes-MacBook-Pro.local (67010)] INFO : No known dispatcher detected.
+[2019-01-02 18:15:40 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Application: development
+[2019-01-02 18:15:40 +0100 charlottes-MacBook-Pro.local (67010)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing New Relic supported Grape instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing ActiveRecord 4 instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing Net instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing ActiveJob instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing Rails 4 Controller instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Installing Rails 4 view instrumentation
+[2019-01-02 18:15:41 +0100 charlottes-MacBook-Pro.local (67010)] INFO : Finished instrumentation
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Environment: development
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : No known dispatcher detected.
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Application: development
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing New Relic supported Grape instrumentation
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing ActiveRecord 4 instrumentation
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing Net instrumentation
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing ActiveJob instrumentation
+[2019-01-02 18:20:26 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing Rails 4 Controller instrumentation
+[2019-01-02 18:20:27 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Installing Rails 4 view instrumentation
+[2019-01-02 18:20:27 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Finished instrumentation
+[2019-01-02 18:20:29 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-01-02 18:20:52 +0100 charlottes-MacBook-Pro.local (67130)] ERROR : Invalid license key, please contact support@newrelic.com
+[2019-01-02 18:20:52 +0100 charlottes-MacBook-Pro.local (67130)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Environment: development
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : No known dispatcher detected.
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Application: development
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing New Relic supported Grape instrumentation
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing ActiveRecord 4 instrumentation
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing Net instrumentation
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing ActiveJob instrumentation
+[2019-01-02 18:23:52 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing Rails 4 Controller instrumentation
+[2019-01-02 18:23:53 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Installing Rails 4 view instrumentation
+[2019-01-02 18:23:53 +0100 charlottes-MacBook-Pro.local (67186)] INFO : Finished instrumentation
+[2019-01-03 22:32:52 +0100 charlottes-MacBook-Pro.local (67130)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: missing attribute: location
+[2019-01-03 22:58:37 +0100 charlottes-MacBook-Pro.local (67130)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `location' for #<#<Class:0x007fd5a4607be8>:0x007fd5bfd510c8>
+[2019-01-04 09:02:34 +0100 charlottes-MacBook-Pro.local (67130)] INFO : Starting Agent shutdown
+[2019-01-04 22:57:18 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Starting the New Relic agent version 5.5.0.348 in "development" environment.
+[2019-01-04 22:57:18 +0100 charlottes-MacBook-Pro.local (79226)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2019-01-04 22:57:18 +0100 charlottes-MacBook-Pro.local (79226)] WARN : No configuration file found. Working directory = /Users/charlie5991/hoh/hoh
+[2019-01-04 22:57:18 +0100 charlottes-MacBook-Pro.local (79226)] WARN : Looked in these locations (based on defaults): /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/hoh/hoh/config/newrelic.yml, /Users/charlie5991/hoh/hoh/newrelic.yml, /Users/charlie5991/.newrelic/newrelic.yml, /Users/charlie5991/newrelic.yml
+[2019-01-04 22:57:18 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Environment: development
+[2019-01-04 22:57:18 +0100 charlottes-MacBook-Pro.local (79226)] INFO : No known dispatcher detected.
+[2019-01-04 22:57:18 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Application: development
+[2019-01-04 22:57:18 +0100 charlottes-MacBook-Pro.local (79226)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing New Relic supported Grape instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing ActiveRecord 4 instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing Rails 3+ middleware instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing Net instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing deferred Rack::Builder instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing Rack::Builder middleware instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing ActiveJob instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing Rails 4 Controller instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Installing Rails 4 view instrumentation
+[2019-01-04 22:57:19 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Finished instrumentation
+[2019-01-04 22:57:24 +0100 charlottes-MacBook-Pro.local (79226)] INFO : Doing deferred dependency-detection before Rack startup
+[2019-01-04 22:57:46 +0100 charlottes-MacBook-Pro.local (79226)] ERROR : Invalid license key, please contact support@newrelic.com
+[2019-01-04 22:57:46 +0100 charlottes-MacBook-Pro.local (79226)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2019-01-05 14:13:24 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/charlie5991/hoh/hoh/app/models/default_text.rb:4: syntax error, unexpected ']', expecting '}'
+  validates :page, :uniqueness  => { :scope => :order] }
+                                                      ^
+[2019-01-05 14:57:48 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `integer' for #<ActiveAdmin::Views::ActiveAdminForm:0x007fdc8fd3a478>
+Did you mean?  Integer
+[2019-01-05 15:00:35 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Unable to find input class IntegerInput
+[2019-01-05 15:06:39 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ERROR:  syntax error at or near "order"
+LINE 1: ...* FROM "default_texts" WHERE (page = 1)  ORDER BY order asc,...
+                                                             ^
+
+[2019-01-05 15:07:34 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ERROR:  syntax error at or near "order"
+LINE 1: ...* FROM "default_texts" WHERE (page = 1)  ORDER BY order asc,...
+                                                             ^
+
+[2019-01-05 15:07:56 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ERROR:  syntax error at or near "order"
+LINE 1: ...* FROM "default_texts" WHERE (page = 1)  ORDER BY order desc
+                                                             ^
+
+[2019-01-05 15:18:52 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ERROR:  column "orderonpage" does not exist
+LINE 1: ...* FROM "default_texts" WHERE (page = 1)  ORDER BY orderOnPag...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "default_texts.orderOnPage".
+
+[2019-01-05 15:20:27 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ERROR:  column "orderonpage" does not exist
+LINE 1: ...* FROM "default_texts" WHERE (page = 1)  ORDER BY orderOnPag...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "default_texts.orderOnPage".
+
+[2019-01-05 15:28:37 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ERROR:  column default_texts.orderonpage does not exist
+LINE 1: ...* FROM "default_texts" WHERE (page = 1)  ORDER BY default_te...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "default_texts.orderOnPage".
+
+[2019-01-05 15:29:52 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The method .order() must contain arguments.
+[2019-01-05 15:31:16 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ERROR:  column "orderonpage" does not exist
+LINE 1: ...* FROM "default_texts" WHERE (page = 1)  ORDER BY orderOnPag...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "default_texts.orderOnPage".
+
+[2019-01-06 12:31:02 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: 
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+
+[2019-01-06 12:31:10 +0100 charlottes-MacBook-Pro.local (79226)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: 
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+

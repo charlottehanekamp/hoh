@@ -1,5 +1,5 @@
 app.controller('LocatiesController', ['$scope', '$http', function($scope, $http) {
-     $http.get("/v1/default_text.json?page=locaties")
+     $http.get("/v1/location.json")
           .then(function onSuccess(response) {
                // Handle success
                if(response.status ==  200){

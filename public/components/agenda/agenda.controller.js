@@ -4,7 +4,9 @@ app.controller('AgendaController', ['$scope', '$http', function($scope, $http) {
                // Handle success
                if (response.status == 200) {
                     $scope.formData = {};
-                    $scope.formData.items = response.data;
+                    $scope.formData.itemsOne = response.data[0];
+                    $scope.formData.itemsTwo = response.data[1];
+                    console.log($scope.formData);
                } else {
                     var status = response.status;
                     var statusText = response.statusText;
